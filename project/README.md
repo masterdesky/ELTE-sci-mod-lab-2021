@@ -4,7 +4,7 @@ This folder contains any actual work, eg. program codes, configuration files, et
 ## Description of the project
 On it's official website, we can read about the software the following: *"Geant4 is a toolkit for the simulation of the passage of particles through matter. Its areas of application include high energy, nuclear and accelerator physics, as well as studies in medical and space science."*
 
-During the projectwork I had to follow a chain of tasks, which can be at the [official repository](https://github.com/sdam-elte/modellinglab2019/tree/master/nuclear_physics_geant4) of the course. The list of (stylistically reformulated) tasks was the following:
+During the projectwork I had to follow a chain of tasks, which can be accessed at the [official repository](https://github.com/sdam-elte/modellinglab2019/tree/master/nuclear_physics_geant4) of the course. The list of (stylistically reformulated) tasks was the following:
 
 ### 1. Installation
 Download the software from [https://geant4.cern.ch](https://geant4.cern.ch), then follow the installation description. Set up the visualization properties. Run to software using pre-prepared input files. 
