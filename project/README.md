@@ -7,7 +7,7 @@ On it's official website, we can read about the software the following: *"Geant4
 During the projectwork I had to follow a chain of tasks, which can be accessed at the [official repository](https://github.com/sdam-elte/modellinglab2019/tree/master/nuclear_physics_geant4) of the course. The list of (stylistically reformulated) tasks was the following:
 
 ### 1. Installation
-Download the software from [https://geant4.cern.ch](https://geant4.cern.ch), then follow the installation description. Set up the visualization properties. Run to software using pre-prepared input files. 
+Download the software from [https://geant4.cern.ch](https://geant4.cern.ch), then follow the installation description [here](https://geant4-userdoc.web.cern.ch/UsersGuides/InstallationGuide/html/). Set up the visualization properties. Run to software using pre-prepared input files. 
 
 ### 2. Run predefined settings
 Explore the input and the execution steps and get acquainted with the format of the results and how to use them.  Make figures using the result data and try to reproduce a figure from a scientific artice. 
@@ -21,7 +21,7 @@ Reproduce [Figure 3]() from the following publication:
 ### 4. Specifying Detector Material
 Get to know the format needed to specify new materials in the detector. Set up a detector system using new materials. Run with new materials, analyze the effects of individual small and large atomic numbers by analyzing the spectra of certain results.
 
-### 5. List of physics prpcesses
+### 5. List of physics processes
 Overview the options for choosing built-in physical processes on the download page of Geant4. Examine the detector you have made so far, if you allow more and more physical processes. Construct detectors in which different physical processes play a major role. Interpret the resulting spectra of these processes.
 
 ### 6. Run Action
