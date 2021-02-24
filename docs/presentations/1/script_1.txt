@@ -1,0 +1,25 @@
+* title slide *
+Hello everyone! Now it's my turn to speak about my project work. This course I'm working on a topic in nuclear physics using the Geant4 sorftware and supervised by Ákos Horváth.
+
+* slide 1 *
+In the focus there is the NEBULA detector - you can see its full name on this slide - (read it).
+
+My tasks are to first implement, to construct this detector in Geant4 using the tool kit it provides for the user, then shot neutrons on this detector and then finally analyse or at least observe and discuss, what's happening. Nowadays it's also recommended to create nice visualizations of basically anything you're doing in a research, so I'll definitely concentrate on that too at the end of my project work.
+
+During this course I'm also intend to use a range of softwares and tools, mostly Geant4, but ROOT libraries and other tools can be also useful like `smsimulator` - which is the so-called "official" impelemtation of the NEBULA detector. For visualization I'll probably use the built-in OpenGL interface of Geant4 and/or also Python.
+
+* slide 2 *
+Let me tell you now just a couple of words about this NEBULA detector. This is a Japanese detector, part of the SAMURAI detector system in the RIKEN research institute. It is primarily designed for fast neutron events, especially to detect neutrons, approximately between 100 and 300 MeV with relatively high accuracy.
+
+The detector itself consist of 4 bigger blocks, each block containing 60 pieces of this BC-408 plastic scintillator rods, which are effectively detects these neutron events. My actual task is to implement this design. You can also see a picture of this detector down below.
+
+* slide 3 *
+Finally I would like to say a few words about my goals and the actual progress made so far. Basically the hardest part for now was to correctly set up and configure all tools and softwares on a computer. This involved numerous and gradual trial-and-error attempts. Parallelly I've constantly tested all components, to see if everything works fine, what components fail and why, etc. After I've done all of these, and made sure, that everything work just as expected, I could start implementing and testing the NEBULA detector. And that's the point in time when I'm currently giving you this presentation. I've basically just started to work on the NEBULA detector this weekend.
+
+My next step will be to complete its implementation and start to actively testing it with neutron beams. After that I can begin the analysis and finally the visualization too.
+
+
+Just one remark at the end. This topic, so nuclear physics is very far from anything I'm doing regularly in research or work or anything, but I hope I'll tackle this project without problems. Okay, after all I'm trying to be a physicist.
+
+
+So, thank you for your attention!
