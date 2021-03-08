@@ -1,0 +1,12 @@
+\begin{abstract}
+	On the MSc course "\textit{Computer Modelling Laboratory}" at ELTE, I've worked on a project in nuclear physics, where I studied the behaviour of the Japanese NEBULA detector when it was bombarded by neutron beams. For the simulation and analysis I've used the Geant4 general-purpose software, which is capable of producing state-of-the-art simulations and results in almost any field in nuclear- or particle physics.
+\end{abstract}
+
+\section{Introduction}
+
+
+\section{Technical details}
+This week I've concentrated mostly on automation of the project pipeline. When using a simulation application, an important prerequisite for the smooth and fast progress is to run it with properly selected parameters and commands. Setting them up before each run is a lengthy job, but the properly set up automation greatly speeds up the process in almost all cases.
+
+Command line automation can also be a great help in the meticulous configuration and installing of a simulation application. It can be also used to set up the required software environment instantaneously. Considering these benefits, I created two scripts last week. One of them handles the full environmental setup and installation of Geant4. On top of these, it also compiles and installs all of the basic examples of Geant4. The user only needs to specify the installation location at the beginning, while everything else is taken care of automatically.
+The other script is a general-purpose Makefile for Geant4 simulations. It can be used as a 
