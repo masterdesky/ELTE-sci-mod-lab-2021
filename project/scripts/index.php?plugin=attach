@@ -1,0 +1,1360 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">
+<head>
+ <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+ <meta http-equiv="content-style-type" content="text/css" />
+ <meta http-equiv="content-script-type" content="text/javascript" />
+ <meta name="robots" content="NOINDEX,NOFOLLOW" /> <title>Attached file list of all pages - RIBFDAQ</title>
+ <link rel="stylesheet" href="skin/bb/bb.css" title="bb" type="text/css" charset="utf-8" />
+ <link rel="stylesheet" href="skin/greybox/greybox.css" type="text/css" media="all" charset="utf-8" />
+ <link rel="alternate" type="application/rss+xml" title="RSS" href="https://ribf.riken.jp/RIBFDAQ/index.php?cmd=rss" />
+ <script type="text/javascript">
+ <!--
+var SKIN_DIR="skin/";
+var IMAGE_DIR="image/";
+var DEFAULT_LANG="en_US";
+var LANG="en_US";
+ // -->
+ </script>
+ <script type="text/javascript" src="skin/lang/en_US.js"></script>
+ <script type="text/javascript" src="skin/default.js"></script>
+ <script type="text/javascript" src="skin/kanzaki.js"></script>
+ <script type="text/javascript" src="skin/ajax/textloader.js"></script>
+ <script type="text/javascript" src="skin/ajax/glossary.js"></script>
+ <script type="text/javascript" src="skin/tzCalculation_LocalTimeZone.js"></script>
+ <script type="text/javascript" src="skin/greybox/AmiJS.js"></script>
+ <script type="text/javascript" src="skin/greybox/greybox.js"></script>
+</head>
+<body>
+<div id="wrapper"><!-- ■BEGIN id:wrapper -->
+<!-- ◆ Header ◆ ========================================================== -->
+<div id="header">
+<div id="logo"><a href="https://ribf.riken.jp/RIBFDAQ/index.php?FrontPage">RIBFDAQ</a>
+Attached file list of all pages</div>
+</div>
+<!-- ◆ Navigator ◆ ======================================================= -->
+<div id="toolbar"><table border=0 width=100%>
+<tr><td align=left><a href="https://ribf.riken.jp/RIBFDAQ/index.php?cmd=multilang&amp;lang=en"><img border=0 src="image/icon/flags/us.png" alt="English" title="English" /></a><a href="https://ribf.riken.jp/RIBFDAQ/index.php?cmd=multilang&amp;lang=ja"><img border=0 src="image/icon/flags/jp.png" alt="Japanese" title="Japanese" /></a> 
+<td align=right><a href="https://ribf.riken.jp/RIBFDAQ/index.php?FrontPage" rel="nofollow"><img border=0 src="image/plus/home.png" width="20" height="20" alt="Front page" title="Front page" /></a>
+<a href="https://ribf.riken.jp/RIBFDAQ/index.php?cmd=list" rel="nofollow"><img border=0 src="image/list.png" width="20" height="20" alt="List of pages" title="List of pages" /></a>
+<a href="https://ribf.riken.jp/RIBFDAQ/index.php?cmd=search" rel="nofollow"><img border=0 src="image/search.png" width="20" height="20" alt="Search" title="Search" /></a>
+<a href="https://ribf.riken.jp/RIBFDAQ/index.php?RecentChanges" rel="nofollow"><img border=0 src="image/recentchanges.png" width="20" height="20" alt="Recent changes" title="Recent changes" /></a>
+<a href="https://ribf.riken.jp/RIBFDAQ/index.php?cmd=mixirss" rel="nofollow"><img border=0 src="image/feed.png" width="20" height="20" alt="RSS of recent changes" title="RSS of recent changes" /></a> 
+ 
+
+ 
+
+
+
+</tr></table></div>
+<!-- ◆ Content ◆ ========================================================= -->
+<div id="main"><!-- ■BEGIN id:main -->
+<div id="wrap_content"><!-- ■BEGIN id:wrap_content -->
+<div id="content"><!-- ■BEGIN id:content -->
+<div id="body"><!-- ■BEGIN id:body -->
+
+<ul>
+<li>ANAPAW
+<ul>
+ <li>riken_guide.pdf
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=riken_guide.pdf&amp;refer=ANAPAW&amp;age=1" title="2010/03/29 14:57:22 480.8KB">riken_guide.pdf (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=riken_guide.pdf&amp;refer=ANAPAW&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+</ul>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?DAQ%2FDownload" title="DAQ/Download (34d)">DAQ/Download</a>
+<ul>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=RIBFDAQCookES.pdf&amp;refer=DAQ%2FDownload" title="2010/02/23 01:49:59 103.8KB">RIBFDAQCookES.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=RIBFDAQCookES.pdf&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=RIBFDAQDishForBabies.pdf&amp;refer=DAQ%2FDownload" title="2010/02/23 01:49:46 48.6KB">RIBFDAQDishForBabies.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=RIBFDAQDishForBabies.pdf&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl100219.tar.gz&amp;refer=DAQ%2FDownload" title="2010/03/30 15:59:07 599.5KB">babirl100219.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl100219.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl100917.tar.gz&amp;refer=DAQ%2FDownload" title="2010/09/17 02:17:33 519.8KB">babirl100917.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl100917.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl100917.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="2010/09/17 02:04:58 410.7KB">babirl100917.tar.gz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl100917.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl101216.tar.gz&amp;refer=DAQ%2FDownload" title="2010/12/15 23:33:25 686.6KB">babirl101216.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl101216.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl101220.tar.gz&amp;refer=DAQ%2FDownload" title="2010/12/19 21:44:53 879.3KB">babirl101220.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl101220.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl110804.tar.gz&amp;refer=DAQ%2FDownload" title="2011/08/05 03:02:40 824.4KB">babirl110804.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl110804.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl110804.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="2011/08/04 01:04:51 1016.4KB">babirl110804.tar.gz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl110804.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl110819.tar.gz&amp;refer=DAQ%2FDownload" title="2011/08/18 17:06:03 1022.9KB">babirl110819.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl110819.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl111210.tar.gz&amp;refer=DAQ%2FDownload" title="2011/12/09 22:06:53 654.0KB">babirl111210.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl111210.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl120227.tar.gz&amp;refer=DAQ%2FDownload" title="2012/02/26 22:20:57 712.4KB">babirl120227.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl120227.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl120523.tar.gz&amp;refer=DAQ%2FDownload" title="2012/05/22 20:58:15 747.1KB">babirl120523.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl120523.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl120523.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="2012/05/22 20:19:12 755.8KB">babirl120523.tar.gz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl120523.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl120524.tar.gz&amp;refer=DAQ%2FDownload" title="2012/05/23 20:09:26 1013.4KB">babirl120524.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl120524.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl120524.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="2012/05/23 20:02:54 755.9KB">babirl120524.tar.gz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl120524.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl120525.tar.gz&amp;refer=DAQ%2FDownload" title="2012/05/24 22:35:01 1011.3KB">babirl120525.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl120525.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl120525.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="2012/05/24 22:28:41 1011.3KB">babirl120525.tar.gz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl120525.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl120720.tar.gz&amp;refer=DAQ%2FDownload" title="2012/07/19 23:44:12 1013.1KB">babirl120720.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl120720.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl130215.tar.gz&amp;refer=DAQ%2FDownload" title="2013/02/14 19:37:48 799.5KB">babirl130215.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl130215.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl130321.tar.gz&amp;refer=DAQ%2FDownload" title="2013/03/20 19:11:29 819.9KB">babirl130321.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl130321.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl130408.tar.gz&amp;refer=DAQ%2FDownload" title="2013/04/07 14:01:38 848.3KB">babirl130408.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl130408.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl130716.tar.gz&amp;refer=DAQ%2FDownload" title="2013/07/15 16:37:48 881.2KB">babirl130716.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl130716.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl131102.tar.gz&amp;refer=DAQ%2FDownload" title="2013/11/02 04:51:12 890.3KB">babirl131102.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl131102.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl140310.tar.gz&amp;refer=DAQ%2FDownload" title="2014/03/09 22:16:44 903.7KB">babirl140310.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl140310.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl140310.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="2014/03/09 20:29:36 903.4KB">babirl140310.tar.gz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl140310.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl140708.tar.gz&amp;refer=DAQ%2FDownload" title="2014/07/07 22:15:21 898.0KB">babirl140708.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl140708.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl140708.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="2014/07/07 21:41:27 907.2KB">babirl140708.tar.gz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl140708.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl140709.tar.gz&amp;refer=DAQ%2FDownload" title="2014/07/08 14:45:12 898.1KB">babirl140709.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl140709.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl140725.tar.gz&amp;refer=DAQ%2FDownload" title="2014/07/24 18:08:24 919.4KB">babirl140725.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl140725.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl150401.tar.gz&amp;refer=DAQ%2FDownload" title="2015/03/31 15:30:33 922.6KB">babirl150401.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl150401.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl160406.tar.gz&amp;refer=DAQ%2FDownload" title="2016/04/05 22:17:05 299.7KB">babirl160406.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl160406.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl160406.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="2016/04/05 21:28:17 299.7KB">babirl160406.tar.gz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl160406.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl160407.tar.gz&amp;refer=DAQ%2FDownload" title="2016/04/06 20:06:13 301.1KB">babirl160407.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl160407.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl160616.tar.gz&amp;refer=DAQ%2FDownload" title="2016/06/15 18:42:40 1124.6KB">babirl160616.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl160616.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl160802.tar.gz&amp;refer=DAQ%2FDownload" title="2016/08/01 21:19:02 1055.1KB">babirl160802.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl160802.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl170125.tar.gz&amp;refer=DAQ%2FDownload" title="2017/01/24 18:19:34 1035.0KB">babirl170125.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl170125.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl200305.tar.gz&amp;refer=DAQ%2FDownload" title="2020/03/04 15:14:47 1136.1KB">babirl200305.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl200305.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl200305.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="2020/03/04 15:10:05 1157.4KB">babirl200305.tar.gz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl200305.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babirl210210.tar.gz&amp;refer=DAQ%2FDownload" title="2021/02/09 19:47:54 1341.4KB">babirl210210.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babirl210210.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=bbcaenvme150401.tar.gz&amp;refer=DAQ%2FDownload" title="2015/03/31 15:36:43 36.0KB">bbcaenvme150401.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=bbcaenvme150401.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=bbcaenvme150407.tar.gz&amp;refer=DAQ%2FDownload" title="2015/04/06 18:29:17 39.0KB">bbcaenvme150407.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=bbcaenvme150407.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=bbcaenvme150709.tar.gz&amp;refer=DAQ%2FDownload" title="2015/07/08 21:36:14 39.6KB">bbcaenvme150709.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=bbcaenvme150709.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=bbcaenvme_sis3350.tar.gz&amp;refer=DAQ%2FDownload" title="2015/04/06 18:37:34 10.3KB">bbcaenvme_sis3350.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=bbcaenvme_sis3350.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=bsgto10.mcs&amp;refer=DAQ%2FDownload" title="2012/06/05 21:38:10 401.7KB">bsgto10.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=bsgto10.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=bsgto10.mcs&amp;refer=DAQ%2FDownload&amp;age=1" title="2012/05/30 22:33:27 401.7KB">bsgto10.mcs (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=bsgto10.mcs&amp;refer=DAQ%2FDownload&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=clupotimestamprev11.mcs&amp;refer=DAQ%2FDownload" title="2010/12/07 20:25:19 762.2KB">clupotimestamprev11.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=clupotimestamprev11.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=cmdgdgto11.tar.gz&amp;refer=DAQ%2FDownload" title="2015/06/03 15:02:50 8.9KB">cmdgdgto11.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=cmdgdgto11.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=cmdgdgto13.tar.gz&amp;refer=DAQ%2FDownload" title="2015/12/14 21:56:35 6.8KB">cmdgdgto13.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=cmdgdgto13.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=cmdgscrgto10.tar.gz&amp;refer=DAQ%2FDownload" title="2013/12/16 15:29:06 5.7KB">cmdgscrgto10.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=cmdgscrgto10.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=cmdsdgto2.tar.gz&amp;refer=DAQ%2FDownload" title="2015/06/03 15:02:59 8.1KB">cmdsdgto2.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=cmdsdgto2.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=cmdsdgto21.tar.gz&amp;refer=DAQ%2FDownload" title="2016/03/15 14:27:22 6.7KB">cmdsdgto21.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=cmdsdgto21.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=cmdtsgto10.tar.gz&amp;refer=DAQ%2FDownload" title="2018/05/14 18:34:23 5.6KB">cmdtsgto10.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=cmdtsgto10.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=dataformat_090914e.pdf&amp;refer=DAQ%2FDownload" title="2010/02/23 01:51:00 127.8KB">dataformat_090914e.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=dataformat_090914e.pdf&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li>dataformat_090914e.ppt
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=dataformat_090914e.ppt&amp;refer=DAQ%2FDownload&amp;age=1" title="2010/02/23 01:50:49 162.5KB">dataformat_090914e.ppt (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=dataformat_090914e.ppt&amp;refer=DAQ%2FDownload&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=findxport&amp;refer=DAQ%2FDownload" title="2018/04/02 20:32:42 14.7KB">findxport</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=findxport&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=findxport.tar.gz&amp;refer=DAQ%2FDownload" title="2018/04/02 20:32:58 3.0KB">findxport.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=findxport.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=findxport10.tar.gz&amp;refer=DAQ%2FDownload" title="2018/05/14 18:34:13 3.0KB">findxport10.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=findxport10.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=findxport32&amp;refer=DAQ%2FDownload" title="2018/04/02 20:32:50 6.9KB">findxport32</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=findxport32&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=fpgalecture1e.pdf&amp;refer=DAQ%2FDownload" title="2015/03/12 15:59:08 1972.9KB">fpgalecture1e.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=fpgalecture1e.pdf&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=gdgto11.mcs&amp;refer=DAQ%2FDownload" title="2015/06/03 14:55:46 401.7KB">gdgto11.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=gdgto11.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=gdgto12.mcs&amp;refer=DAQ%2FDownload" title="2015/07/08 16:11:52 401.7KB">gdgto12.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=gdgto12.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=gdgto12.tar.gz&amp;refer=DAQ%2FDownload" title="2015/07/08 16:11:29 6.8KB">gdgto12.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=gdgto12.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=gdgto13.mcs&amp;refer=DAQ%2FDownload" title="2015/12/14 21:56:12 401.7KB">gdgto13.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=gdgto13.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=gscrgto10.mcs&amp;refer=DAQ%2FDownload" title="2013/12/16 15:34:38 401.7KB">gscrgto10.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=gscrgto10.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=gto_gatedscaler_rev1.0.pdf&amp;refer=DAQ%2FDownload" title="2013/12/16 15:34:22 54.6KB">gto_gatedscaler_rev1.0.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=gto_gatedscaler_rev1.0.pdf&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=gto_singledaq_rev1.0.pdf&amp;refer=DAQ%2FDownload" title="2013/12/16 15:34:14 30.7KB">gto_singledaq_rev1.0.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=gto_singledaq_rev1.0.pdf&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=gto_timestamp_rev1.0.pdf&amp;refer=DAQ%2FDownload" title="2018/05/14 18:34:41 38.3KB">gto_timestamp_rev1.0.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=gto_timestamp_rev1.0.pdf&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=lugto10.mcs&amp;refer=DAQ%2FDownload" title="2017/03/07 17:51:45 401.7KB">lugto10.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=lugto10.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=lupo_daqmaster_rev1.1e.pdf&amp;refer=DAQ%2FDownload" title="2010/08/29 20:40:44 52.8KB">lupo_daqmaster_rev1.1e.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=lupo_daqmaster_rev1.1e.pdf&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=lupo_daqmaster_rev1.2e.pdf&amp;refer=DAQ%2FDownload" title="2012/10/25 19:27:30 57.2KB">lupo_daqmaster_rev1.2e.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=lupo_daqmaster_rev1.2e.pdf&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=lupo_daqmaster_rev1.5e.pdf&amp;refer=DAQ%2FDownload" title="2017/11/07 19:28:14 54.8KB">lupo_daqmaster_rev1.5e.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=lupo_daqmaster_rev1.5e.pdf&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=lupo_daqmaster_rev1.6e.pdf&amp;refer=DAQ%2FDownload" title="2018/05/10 15:20:19 66.9KB">lupo_daqmaster_rev1.6e.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=lupo_daqmaster_rev1.6e.pdf&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=lupo_ioregister_rev1.2.pdf&amp;refer=DAQ%2FDownload" title="2011/05/28 21:40:32 45.5KB">lupo_ioregister_rev1.2.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=lupo_ioregister_rev1.2.pdf&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=lupo_ioregister_rev1.2.pdf&amp;refer=DAQ%2FDownload&amp;age=1" title="2010/02/23 01:56:27 45.5KB">lupo_ioregister_rev1.2.pdf (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=lupo_ioregister_rev1.2.pdf&amp;refer=DAQ%2FDownload&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=lupo_ioscaler_rev1.0e.pdf&amp;refer=DAQ%2FDownload" title="2016/10/10 16:44:24 46.0KB">lupo_ioscaler_rev1.0e.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=lupo_ioscaler_rev1.0e.pdf&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li>lupo_multitimestamp_rev1.0.pdf
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=lupo_multitimestamp_rev1.0.pdf&amp;refer=DAQ%2FDownload&amp;age=1" title="2010/02/23 01:56:57 54.4KB">lupo_multitimestamp_rev1.0.pdf (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=lupo_multitimestamp_rev1.0.pdf&amp;refer=DAQ%2FDownload&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=lupo_multitimestamp_rev2.0e.pdf&amp;refer=DAQ%2FDownload" title="2012/09/27 18:30:01 58.3KB">lupo_multitimestamp_rev2.0e.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=lupo_multitimestamp_rev2.0e.pdf&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=lupo_scaler_rev1.2e.pdf&amp;refer=DAQ%2FDownload" title="2016/02/18 21:46:16 37.3KB">lupo_scaler_rev1.2e.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=lupo_scaler_rev1.2e.pdf&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=lupo_scaler_rev1.3e.pdf&amp;refer=DAQ%2FDownload" title="2020/06/30 20:55:56 37.7KB">lupo_scaler_rev1.3e.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=lupo_scaler_rev1.3e.pdf&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=lupo_timestamp_rev1.2e.pdf&amp;refer=DAQ%2FDownload" title="2010/02/23 01:56:41 61.3KB">lupo_timestamp_rev1.2e.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=lupo_timestamp_rev1.2e.pdf&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=lupo_timestamp_rev1.6e.pdf&amp;refer=DAQ%2FDownload" title="2014/09/08 16:05:44 94.1KB">lupo_timestamp_rev1.6e.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=lupo_timestamp_rev1.6e.pdf&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=mocosio11.bit&amp;refer=DAQ%2FDownload" title="2016/03/23 17:57:19 53.5KB">mocosio11.bit</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=mocosio11.bit&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=mocousb.xml&amp;refer=DAQ%2FDownload" title="2016/03/23 17:58:43 4.3KB">mocousb.xml</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=mocousb.xml&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=nbbq-aug01-2011.tar.gz&amp;refer=DAQ%2FDownload" title="2011/07/31 23:44:06 274.0KB">nbbq-aug01-2011.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=nbbq-aug01-2011.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=nbbq-aug04-2011.tar.gz&amp;refer=DAQ%2FDownload" title="2011/08/04 01:05:36 284.1KB">nbbq-aug04-2011.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=nbbq-aug04-2011.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=nbbq-aug19-2011.tar.gz&amp;refer=DAQ%2FDownload" title="2011/08/18 17:05:52 432.2KB">nbbq-aug19-2011.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=nbbq-aug19-2011.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=nbbq-dec08-2010.tar.gz&amp;refer=DAQ%2FDownload" title="2010/12/07 20:23:26 182.9KB">nbbq-dec08-2010.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=nbbq-dec08-2010.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=nbbq-dec16-2010.tar.gz&amp;refer=DAQ%2FDownload" title="2010/12/15 23:33:17 130.5KB">nbbq-dec16-2010.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=nbbq-dec16-2010.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=nbbq-dec28-2011.tar.gz&amp;refer=DAQ%2FDownload" title="2011/12/27 22:40:21 431.9KB">nbbq-dec28-2011.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=nbbq-dec28-2011.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=nbbq-feb28-2012.tar.gz&amp;refer=DAQ%2FDownload" title="2012/02/27 16:07:32 272.7KB">nbbq-feb28-2012.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=nbbq-feb28-2012.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=nbbq-jan27-2012.tar.gz&amp;refer=DAQ%2FDownload" title="2012/01/27 03:34:44 272.6KB">nbbq-jan27-2012.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=nbbq-jan27-2012.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=nbbq-jul20-2012.tar.gz&amp;refer=DAQ%2FDownload" title="2012/07/19 23:44:02 1262.2KB">nbbq-jul20-2012.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=nbbq-jul20-2012.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=nbbq-mar05-2012.tar.gz&amp;refer=DAQ%2FDownload" title="2012/03/04 22:07:11 272.7KB">nbbq-mar05-2012.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=nbbq-mar05-2012.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=nbbq-may12-2015.tar.gz&amp;refer=DAQ%2FDownload" title="2015/05/11 18:11:16 203.1KB">nbbq-may12-2015.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=nbbq-may12-2015.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=nbbq-may23-2012.tar.gz&amp;refer=DAQ%2FDownload" title="2012/05/22 20:38:21 1322.2KB">nbbq-may23-2012.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=nbbq-may23-2012.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=nbbq-may23-2012.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="2012/05/22 20:16:18 117.1KB">nbbq-may23-2012.tar.gz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=nbbq-may23-2012.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=nbbq-may24-2012.tar.gz&amp;refer=DAQ%2FDownload" title="2012/05/23 19:53:37 1510.0KB">nbbq-may24-2012.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=nbbq-may24-2012.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=nbbq-may25-2012.tar.gz&amp;refer=DAQ%2FDownload" title="2012/05/24 22:35:18 1413.4KB">nbbq-may25-2012.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=nbbq-may25-2012.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=nbbq-may25-2012.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="2012/05/24 22:28:34 1325.2KB">nbbq-may25-2012.tar.gz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=nbbq-may25-2012.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li>nbbq100331.tar.gz
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=nbbq100331.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="2010/03/30 16:05:35 109.3KB">nbbq100331.tar.gz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=nbbq100331.tar.gz&amp;refer=DAQ%2FDownload&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=nbbq100407.tar.gz&amp;refer=DAQ%2FDownload" title="2010/04/06 21:05:27 171.6KB">nbbq100407.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=nbbq100407.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=sdgto12.mcs&amp;refer=DAQ%2FDownload" title="2012/06/05 21:38:22 401.7KB">sdgto12.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=sdgto12.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=sdgto12.mcs&amp;refer=DAQ%2FDownload&amp;age=1" title="2012/05/30 22:33:07 401.7KB">sdgto12.mcs (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=sdgto12.mcs&amp;refer=DAQ%2FDownload&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=sdgto12web.tar.gz&amp;refer=DAQ%2FDownload" title="2013/07/15 16:47:40 387.3KB">sdgto12web.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=sdgto12web.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=sdgto20.mcs&amp;refer=DAQ%2FDownload" title="2015/03/12 16:41:27 401.7KB">sdgto20.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=sdgto20.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=sdgto20web.tar.gz&amp;refer=DAQ%2FDownload" title="2015/06/03 14:55:16 331.8KB">sdgto20web.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=sdgto20web.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=sdgto21.mcs&amp;refer=DAQ%2FDownload" title="2016/03/28 18:40:46 401.7KB">sdgto21.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=sdgto21.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=sdgto21.mcs&amp;refer=DAQ%2FDownload&amp;age=1" title="2016/03/15 14:23:47 401.7KB">sdgto21.mcs (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=sdgto21.mcs&amp;refer=DAQ%2FDownload&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=selectorgto2015e.pdf&amp;refer=DAQ%2FDownload" title="2017/02/12 22:02:46 256.7KB">selectorgto2015e.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=selectorgto2015e.pdf&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=selgto10.mcs&amp;refer=DAQ%2FDownload" title="2017/02/12 22:01:54 401.7KB">selgto10.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=selgto10.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=selgto10.tar.gz&amp;refer=DAQ%2FDownload" title="2017/02/12 22:05:21 9.9KB">selgto10.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=selgto10.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=tsgto10.mcs&amp;refer=DAQ%2FDownload" title="2019/04/09 16:39:57 401.7KB">tsgto10.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=tsgto10.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=v2718sample.tar.gz&amp;refer=DAQ%2FDownload" title="2012/07/19 23:44:19 14.0KB">v2718sample.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=v2718sample.tar.gz&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li>vlupodaqmaster11.mcs
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vlupodaqmaster11.mcs&amp;refer=DAQ%2FDownload&amp;age=1" title="2011/05/22 05:55:14 762.2KB">vlupodaqmaster11.mcs (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vlupodaqmaster11.mcs&amp;refer=DAQ%2FDownload&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vlupodaqmaster12.mcs&amp;refer=DAQ%2FDownload" title="2012/10/25 19:29:00 762.2KB">vlupodaqmaster12.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vlupodaqmaster12.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vlupodaqmaster12.mcs&amp;refer=DAQ%2FDownload&amp;age=1" title="2011/05/26 02:13:17 762.2KB">vlupodaqmaster12.mcs (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vlupodaqmaster12.mcs&amp;refer=DAQ%2FDownload&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vlupodaqmaster13.mcs&amp;refer=DAQ%2FDownload" title="2015/09/29 19:23:19 762.2KB">vlupodaqmaster13.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vlupodaqmaster13.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vlupodaqmaster14.mcs&amp;refer=DAQ%2FDownload" title="2015/10/26 22:18:36 762.2KB">vlupodaqmaster14.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vlupodaqmaster14.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vlupodaqmaster15.mcs&amp;refer=DAQ%2FDownload" title="2017/11/07 19:30:09 762.2KB">vlupodaqmaster15.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vlupodaqmaster15.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vlupodaqmaster16.mcs&amp;refer=DAQ%2FDownload" title="2018/05/10 15:20:45 762.2KB">vlupodaqmaster16.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vlupodaqmaster16.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vlupoioregisterrev12.mcs&amp;refer=DAQ%2FDownload" title="2010/12/07 20:27:51 762.2KB">vlupoioregisterrev12.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vlupoioregisterrev12.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vlupoioregisterrev14.mcs&amp;refer=DAQ%2FDownload" title="2013/09/29 15:20:00 762.2KB">vlupoioregisterrev14.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vlupoioregisterrev14.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vlupoioscaler10.mcs&amp;refer=DAQ%2FDownload" title="2016/10/10 16:44:09 762.2KB">vlupoioscaler10.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vlupoioscaler10.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vlupomultitimestamp20.mcs&amp;refer=DAQ%2FDownload" title="2012/09/27 18:28:10 762.2KB">vlupomultitimestamp20.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vlupomultitimestamp20.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vluposcaler11.mcs&amp;refer=DAQ%2FDownload" title="2013/10/19 21:41:42 762.2KB">vluposcaler11.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vluposcaler11.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vluposcaler12.mcs&amp;refer=DAQ%2FDownload" title="2015/06/11 16:08:12 762.2KB">vluposcaler12.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vluposcaler12.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vluposcaler13.mcs&amp;refer=DAQ%2FDownload" title="2020/06/30 20:56:12 762.2KB">vluposcaler13.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vluposcaler13.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vlupotimestamp11.mcs&amp;refer=DAQ%2FDownload" title="2013/07/24 22:34:20 762.2KB">vlupotimestamp11.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vlupotimestamp11.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vlupotimestamp11dali.mcs&amp;refer=DAQ%2FDownload" title="2018/10/11 19:32:30 762.2KB">vlupotimestamp11dali.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vlupotimestamp11dali.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vlupotimestamp16.mcs&amp;refer=DAQ%2FDownload" title="2014/09/08 16:08:00 762.2KB">vlupotimestamp16.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vlupotimestamp16.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vlupotimestamp17.mcs&amp;refer=DAQ%2FDownload" title="2016/03/23 18:01:25 762.2KB">vlupotimestamp17.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vlupotimestamp17.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vlupotimestamp18.mcs&amp;refer=DAQ%2FDownload" title="2018/11/14 22:08:16 762.2KB">vlupotimestamp18.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vlupotimestamp18.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vlupotimestamp19.mcs&amp;refer=DAQ%2FDownload" title="2018/11/27 22:33:35 762.2KB">vlupotimestamp19.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vlupotimestamp19.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vlupotimestamp1ahiji.mcs&amp;refer=DAQ%2FDownload" title="2020/10/04 17:38:28 762.2KB">vlupotimestamp1ahiji.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vlupotimestamp1ahiji.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vlupotimestamp2017laszlo.mcs&amp;refer=DAQ%2FDownload" title="2019/02/18 18:42:43 762.2KB">vlupotimestamp2017laszlo.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vlupotimestamp2017laszlo.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vlupotimestamp30.mcs&amp;refer=DAQ%2FDownload" title="2014/05/20 19:22:41 762.2KB">vlupotimestamp30.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vlupotimestamp30.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vlupotimestamplaszlo2018.mcs&amp;refer=DAQ%2FDownload" title="2019/02/18 18:45:07 762.2KB">vlupotimestamplaszlo2018.mcs</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vlupotimestamplaszlo2018.mcs&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li>vlupotimestamprev11.mcs
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vlupotimestamprev11.mcs&amp;refer=DAQ%2FDownload&amp;age=1" title="2010/12/07 20:27:42 762.2KB">vlupotimestamprev11.mcs (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vlupotimestamprev11.mcs&amp;refer=DAQ%2FDownload&amp;age=1" title="File information">Information</a>]</span>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vlupotimestamprev11.mcs&amp;refer=DAQ%2FDownload&amp;age=2" title="2011/05/28 21:42:34 762.2KB">vlupotimestamprev11.mcs (backup No.2)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vlupotimestamprev11.mcs&amp;refer=DAQ%2FDownload&amp;age=2" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=vmelupods.pdf&amp;refer=DAQ%2FDownload" title="2010/02/23 01:57:42 70.4KB">vmelupods.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=vmelupods.pdf&amp;refer=DAQ%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+</ul>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?DAQ%2FInformation%2FModule%2FGTO" title="DAQ/Information/Module/GTO (2059d)">DAQ/Information/Module/GTO</a>
+<ul>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=GTO.ucf&amp;refer=DAQ%2FInformation%2FModule%2FGTO" title="2013/12/25 03:41:03 4.0KB">GTO.ucf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=GTO.ucf&amp;refer=DAQ%2FInformation%2FModule%2FGTO" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=SkelGTO20150727.zip&amp;refer=DAQ%2FInformation%2FModule%2FGTO" title="2015/07/26 18:44:36 358.5KB">SkelGTO20150727.zip</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=SkelGTO20150727.zip&amp;refer=DAQ%2FInformation%2FModule%2FGTO" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=fpgalecture1.pdf&amp;refer=DAQ%2FInformation%2FModule%2FGTO" title="2015/07/26 20:43:13 1143.1KB">fpgalecture1.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=fpgalecture1.pdf&amp;refer=DAQ%2FInformation%2FModule%2FGTO" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=fpgalecture1e.pdf&amp;refer=DAQ%2FInformation%2FModule%2FGTO" title="2015/07/26 20:44:16 1081.3KB">fpgalecture1e.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=fpgalecture1e.pdf&amp;refer=DAQ%2FInformation%2FModule%2FGTO" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=fpgalecture3e.pdf&amp;refer=DAQ%2FInformation%2FModule%2FGTO" title="2015/07/26 20:43:20 472.0KB">fpgalecture3e.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=fpgalecture3e.pdf&amp;refer=DAQ%2FInformation%2FModule%2FGTO" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=gtointro1.pdf&amp;refer=DAQ%2FInformation%2FModule%2FGTO" title="2015/07/26 20:43:27 237.5KB">gtointro1.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=gtointro1.pdf&amp;refer=DAQ%2FInformation%2FModule%2FGTO" title="File information">Information</a>]</span>
+
+ </li>
+</ul>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?DAQ%2FInformation%2FModule%2FLUPO" title="DAQ/Information/Module/LUPO (1012d)">DAQ/Information/Module/LUPO</a>
+<ul>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=fpgababa1.pdf&amp;refer=DAQ%2FInformation%2FModule%2FLUPO" title="2011/01/23 17:41:01 1496.5KB">fpgababa1.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=fpgababa1.pdf&amp;refer=DAQ%2FInformation%2FModule%2FLUPO" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=fpgababa1e.pdf&amp;refer=DAQ%2FInformation%2FModule%2FLUPO" title="2011/01/23 17:42:08 1384.7KB">fpgababa1e.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=fpgababa1e.pdf&amp;refer=DAQ%2FInformation%2FModule%2FLUPO" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=fpgalecture1.pdf&amp;refer=DAQ%2FInformation%2FModule%2FLUPO" title="2015/03/12 16:34:46 1143.1KB">fpgalecture1.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=fpgalecture1.pdf&amp;refer=DAQ%2FInformation%2FModule%2FLUPO" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=fpgalecture1e.pdf&amp;refer=DAQ%2FInformation%2FModule%2FLUPO" title="2015/03/12 16:34:53 1081.3KB">fpgalecture1e.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=fpgalecture1e.pdf&amp;refer=DAQ%2FInformation%2FModule%2FLUPO" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=fpgalecture1e.pdf&amp;refer=DAQ%2FInformation%2FModule%2FLUPO&amp;age=1" title="2015/03/12 16:01:35 1972.9KB">fpgalecture1e.pdf (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=fpgalecture1e.pdf&amp;refer=DAQ%2FInformation%2FModule%2FLUPO&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li>fpgalecture3e.pdf
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=fpgalecture3e.pdf&amp;refer=DAQ%2FInformation%2FModule%2FLUPO&amp;age=1" title="2015/03/12 16:04:32 583.1KB">fpgalecture3e.pdf (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=fpgalecture3e.pdf&amp;refer=DAQ%2FInformation%2FModule%2FLUPO&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+</ul>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?DAQ%2FInformation%2FModule%2FXLM" title="DAQ/Information/Module/XLM (1054d)">DAQ/Information/Module/XLM</a>
+<ul>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=jtecxlmaddrloc.png&amp;refer=DAQ%2FInformation%2FModule%2FXLM" title="2018/04/26 21:40:44 7.5KB">jtecxlmaddrloc.png</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=jtecxlmaddrloc.png&amp;refer=DAQ%2FInformation%2FModule%2FXLM" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=jtecxlmaddrpins.png&amp;refer=DAQ%2FInformation%2FModule%2FXLM" title="2018/04/26 21:40:49 46.6KB">jtecxlmaddrpins.png</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=jtecxlmaddrpins.png&amp;refer=DAQ%2FInformation%2FModule%2FXLM" title="File information">Information</a>]</span>
+
+ </li>
+</ul>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?DAQ%2FInformation%2FProcedure" title="DAQ/Information/Procedure (3380d)">DAQ/Information/Procedure</a>
+<ul>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=ribfdaqapplicationform.txt&amp;refer=DAQ%2FInformation%2FProcedure" title="2010/02/22 17:55:54 1.5KB">ribfdaqapplicationform.txt</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=ribfdaqapplicationform.txt&amp;refer=DAQ%2FInformation%2FProcedure" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=ribfdaqapplicationform.txt&amp;refer=DAQ%2FInformation%2FProcedure&amp;age=1" title="2010/02/09 21:25:48 1.5KB">ribfdaqapplicationform.txt (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=ribfdaqapplicationform.txt&amp;refer=DAQ%2FInformation%2FProcedure&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+</ul>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?DAQ%2FManual%2FDataformat" title="DAQ/Manual/Dataformat (571d)">DAQ/Manual/Dataformat</a>
+<ul>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=dataformat_090914e.pdf&amp;refer=DAQ%2FManual%2FDataformat" title="2010/02/08 20:36:18 127.8KB">dataformat_090914e.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=dataformat_090914e.pdf&amp;refer=DAQ%2FManual%2FDataformat" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=dataformat_101112e.pdf&amp;refer=DAQ%2FManual%2FDataformat" title="2011/02/23 16:04:15 127.2KB">dataformat_101112e.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=dataformat_101112e.pdf&amp;refer=DAQ%2FManual%2FDataformat" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=segidlist.h.20170327&amp;refer=DAQ%2FManual%2FDataformat" title="2017/03/26 16:54:11 4.5KB">segidlist.h.20170327</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=segidlist.h.20170327&amp;refer=DAQ%2FManual%2FDataformat" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=segidlist100331.h&amp;refer=DAQ%2FManual%2FDataformat" title="2010/03/30 20:14:58 3.9KB">segidlist100331.h</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=segidlist100331.h&amp;refer=DAQ%2FManual%2FDataformat" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=segidlist101124.h&amp;refer=DAQ%2FManual%2FDataformat" title="2010/11/23 18:55:04 4.1KB">segidlist101124.h</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=segidlist101124.h&amp;refer=DAQ%2FManual%2FDataformat" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=segidlist120801.h&amp;refer=DAQ%2FManual%2FDataformat" title="2012/07/31 15:51:53 4.2KB">segidlist120801.h</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=segidlist120801.h&amp;refer=DAQ%2FManual%2FDataformat" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=segidlist140206.h&amp;refer=DAQ%2FManual%2FDataformat" title="2014/02/05 16:08:39 4.3KB">segidlist140206.h</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=segidlist140206.h&amp;refer=DAQ%2FManual%2FDataformat" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=segidlist140926.h&amp;refer=DAQ%2FManual%2FDataformat" title="2014/09/25 17:41:09 4.3KB">segidlist140926.h</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=segidlist140926.h&amp;refer=DAQ%2FManual%2FDataformat" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=segidlist150202.h&amp;refer=DAQ%2FManual%2FDataformat" title="2015/02/01 14:36:58 4.4KB">segidlist150202.h</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=segidlist150202.h&amp;refer=DAQ%2FManual%2FDataformat" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=segidlist150210.h&amp;refer=DAQ%2FManual%2FDataformat" title="2015/02/09 21:16:42 4.3KB">segidlist150210.h</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=segidlist150210.h&amp;refer=DAQ%2FManual%2FDataformat" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=segidlist150216.h&amp;refer=DAQ%2FManual%2FDataformat" title="2015/02/15 18:41:57 4.5KB">segidlist150216.h</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=segidlist150216.h&amp;refer=DAQ%2FManual%2FDataformat" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=segidlist_samurai.h&amp;refer=DAQ%2FManual%2FDataformat" title="2019/08/22 18:20:48 5.1KB">segidlist_samurai.h</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=segidlist_samurai.h&amp;refer=DAQ%2FManual%2FDataformat" title="File information">Information</a>]</span>
+
+ </li>
+</ul>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?DAQ%2FManual%2FDevelopment" title="DAQ/Manual/Development (1450d)">DAQ/Manual/Development</a>
+<ul>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=csampleseq.png&amp;refer=DAQ%2FManual%2FDevelopment" title="2014/07/10 16:06:27 29.1KB">csampleseq.png</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=csampleseq.png&amp;refer=DAQ%2FManual%2FDevelopment" title="File information">Information</a>]</span>
+
+ </li>
+</ul>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?DAQ%2FManual%2FExperiment" title="DAQ/Manual/Experiment (1450d)">DAQ/Manual/Experiment</a>
+<ul>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=sva03_20170321_MTDC32.prn&amp;refer=DAQ%2FManual%2FExperiment" title="2017/03/26 16:59:54 1.1KB">sva03_20170321_MTDC32.prn</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=sva03_20170321_MTDC32.prn&amp;refer=DAQ%2FManual%2FExperiment" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=sva03_20170321_scaler.prn&amp;refer=DAQ%2FManual%2FExperiment" title="2017/03/26 17:00:05 1.3KB">sva03_20170321_scaler.prn</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=sva03_20170321_scaler.prn&amp;refer=DAQ%2FManual%2FExperiment" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=sva03_20170321_v1190-0.prn&amp;refer=DAQ%2FManual%2FExperiment" title="2017/03/26 16:59:42 6.0KB">sva03_20170321_v1190-0.prn</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=sva03_20170321_v1190-0.prn&amp;refer=DAQ%2FManual%2FExperiment" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=sva03_20170321_v1190-1.prn&amp;refer=DAQ%2FManual%2FExperiment" title="2017/03/26 17:00:14 5.9KB">sva03_20170321_v1190-1.prn</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=sva03_20170321_v1190-1.prn&amp;refer=DAQ%2FManual%2FExperiment" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=sva03_20170321_v1290.prn&amp;refer=DAQ%2FManual%2FExperiment" title="2017/03/26 17:00:22 1.4KB">sva03_20170321_v1290.prn</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=sva03_20170321_v1290.prn&amp;refer=DAQ%2FManual%2FExperiment" title="File information">Information</a>]</span>
+
+ </li>
+</ul>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?DAQ%2FManual%2FSetup%2FWebUtility" title="DAQ/Manual/Setup/WebUtility (3380d)">DAQ/Manual/Setup/WebUtility</a>
+<ul>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=crindex.png&amp;refer=DAQ%2FManual%2FSetup%2FWebUtility" title="2011/08/01 21:16:17 7.8KB">crindex.png</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=crindex.png&amp;refer=DAQ%2FManual%2FSetup%2FWebUtility" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=edithostinfo.png&amp;refer=DAQ%2FManual%2FSetup%2FWebUtility" title="2011/12/13 16:00:04 23.3KB">edithostinfo.png</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=edithostinfo.png&amp;refer=DAQ%2FManual%2FSetup%2FWebUtility" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=edithostinfo.png&amp;refer=DAQ%2FManual%2FSetup%2FWebUtility&amp;age=1" title="2011/08/01 21:44:00 17.9KB">edithostinfo.png (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=edithostinfo.png&amp;refer=DAQ%2FManual%2FSetup%2FWebUtility&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=edithostlist.png&amp;refer=DAQ%2FManual%2FSetup%2FWebUtility" title="2010/03/07 23:42:53 50.9KB">edithostlist.png</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=edithostlist.png&amp;refer=DAQ%2FManual%2FSetup%2FWebUtility" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=edithostlist.png&amp;refer=DAQ%2FManual%2FSetup%2FWebUtility&amp;age=1" title="2010/03/03 00:00:59 9.9KB">edithostlist.png (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=edithostlist.png&amp;refer=DAQ%2FManual%2FSetup%2FWebUtility&amp;age=1" title="File information">Information</a>]</span>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=edithostlist.png&amp;refer=DAQ%2FManual%2FSetup%2FWebUtility&amp;age=2" title="2010/03/03 00:38:02 55.9KB">edithostlist.png (backup No.2)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=edithostlist.png&amp;refer=DAQ%2FManual%2FSetup%2FWebUtility&amp;age=2" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=edituserdef.png&amp;refer=DAQ%2FManual%2FSetup%2FWebUtility" title="2011/08/01 20:46:11 7.3KB">edituserdef.png</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=edituserdef.png&amp;refer=DAQ%2FManual%2FSetup%2FWebUtility" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=newindex.png&amp;refer=DAQ%2FManual%2FSetup%2FWebUtility" title="2011/08/01 20:42:08 2.2KB">newindex.png</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=newindex.png&amp;refer=DAQ%2FManual%2FSetup%2FWebUtility" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=processmanager.png&amp;refer=DAQ%2FManual%2FSetup%2FWebUtility" title="2010/03/03 21:13:57 41.7KB">processmanager.png</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=processmanager.png&amp;refer=DAQ%2FManual%2FSetup%2FWebUtility" title="File information">Information</a>]</span>
+
+ </li>
+</ul>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?DAQ%2FManual%2FUtility" title="DAQ/Manual/Utility (2377d)">DAQ/Manual/Utility</a>
+<ul>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=babiselsh.png&amp;refer=DAQ%2FManual%2FUtility" title="2010/10/06 01:20:28 11.1KB">babiselsh.png</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=babiselsh.png&amp;refer=DAQ%2FManual%2FUtility" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=gtogwt.png&amp;refer=DAQ%2FManual%2FUtility" title="2013/07/01 15:55:39 17.6KB">gtogwt.png</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=gtogwt.png&amp;refer=DAQ%2FManual%2FUtility" title="File information">Information</a>]</span>
+
+ </li>
+</ul>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?FrontPage" title="FrontPage (1789d)">FrontPage</a>
+<ul>
+ <li>a.png
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=a.png&amp;refer=FrontPage&amp;age=1" title="2010/02/07 23:50:18 119.2KB">a.png (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=a.png&amp;refer=FrontPage&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+</ul>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?Tools%2FAnalysis%2FANAPAW" title="Tools/Analysis/ANAPAW (3756d)">Tools/Analysis/ANAPAW</a>
+<ul>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=riken_guide.pdf&amp;refer=Tools%2FAnalysis%2FANAPAW" title="2010/12/02 18:54:15 480.8KB">riken_guide.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=riken_guide.pdf&amp;refer=Tools%2FAnalysis%2FANAPAW" title="File information">Information</a>]</span>
+
+ </li>
+</ul>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?Tools%2FAnalysis%2FANAPAW%2FTutorial" title="Tools/Analysis/ANAPAW/Tutorial (4004d)">Tools/Analysis/ANAPAW/Tutorial</a>
+<ul>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=riken_guide.pdf&amp;refer=Tools%2FAnalysis%2FANAPAW%2FTutorial" title="2010/03/29 18:15:43 480.8KB">riken_guide.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=riken_guide.pdf&amp;refer=Tools%2FAnalysis%2FANAPAW%2FTutorial" title="File information">Information</a>]</span>
+
+ </li>
+</ul>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?Tools%2FAnalysis%2FANAROOT" title="Tools/Analysis/ANAROOT (2814d)">Tools/Analysis/ANAROOT</a>
+<ul>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_ribfusermeeting2013.pdf&amp;refer=Tools%2FAnalysis%2FANAROOT" title="2013/07/02 02:09:38 612.3KB">anaroot_ribfusermeeting2013.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_ribfusermeeting2013.pdf&amp;refer=Tools%2FAnalysis%2FANAROOT" title="File information">Information</a>]</span>
+
+ </li>
+</ul>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?Tools%2FAnalysis%2FANAROOT%2FAbstract" title="Tools/Analysis/ANAROOT/Abstract (2778d)">Tools/Analysis/ANAROOT/Abstract</a>
+<ul>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=TArtArchitecture.jpg&amp;refer=Tools%2FAnalysis%2FANAROOT%2FAbstract" title="2012/11/02 20:43:26 104.6KB">TArtArchitecture.jpg</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=TArtArchitecture.jpg&amp;refer=Tools%2FAnalysis%2FANAROOT%2FAbstract" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=axisdef.jpg&amp;refer=Tools%2FAnalysis%2FANAROOT%2FAbstract" title="2012/11/02 20:43:12 97.4KB">axisdef.jpg</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=axisdef.jpg&amp;refer=Tools%2FAnalysis%2FANAROOT%2FAbstract" title="File information">Information</a>]</span>
+
+ </li>
+</ul>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?Tools%2FAnalysis%2FANAROOT%2FGo4" title="Tools/Analysis/ANAROOT/Go4 (2735d)">Tools/Analysis/ANAROOT/Go4</a>
+<ul>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=RGo4_v0.0.1.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FGo4" title="2011/09/25 01:06:13 7.5KB">RGo4_v0.0.1.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=RGo4_v0.0.1.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FGo4" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=RGo4_v0.0.2.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FGo4" title="2011/09/26 14:20:49 11.6KB">RGo4_v0.0.2.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=RGo4_v0.0.2.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FGo4" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=RGo4_v0.0.3.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FGo4" title="2013/08/07 00:03:41 11.5KB">RGo4_v0.0.3.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=RGo4_v0.0.3.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FGo4" title="File information">Information</a>]</span>
+
+ </li>
+</ul>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?Tools%2FAnalysis%2FANAROOT%2FInstallation" title="Tools/Analysis/ANAROOT/Installation (98d)">Tools/Analysis/ANAROOT/Installation</a>
+<ul>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=ANAROOTonMAC.html&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2013/02/12 14:18:42 12.1KB">ANAROOTonMAC.html</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=ANAROOTonMAC.html&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.1.10.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2010/11/24 20:07:19 196.5KB">anaroot_v4.1.10.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.1.10.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.1.2.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2010/03/03 15:03:46 196.8KB">anaroot_v4.1.2.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.1.2.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.1.3.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2010/05/14 02:51:00 193.3KB">anaroot_v4.1.3.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.1.3.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.1.4.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2010/07/13 10:01:10 194.1KB">anaroot_v4.1.4.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.1.4.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.1.6.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2010/11/18 06:00:28 195.7KB">anaroot_v4.1.6.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.1.6.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.2.1.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2011/05/22 21:19:13 60.7KB">anaroot_v4.2.1.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.2.1.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.2.2.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2011/05/24 23:11:14 60.7KB">anaroot_v4.2.2.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.2.2.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.2.3.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2011/08/10 15:27:15 122.3KB">anaroot_v4.2.3.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.2.3.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.2.4.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2011/09/14 05:21:38 123.1KB">anaroot_v4.2.4.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.2.4.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.2.5.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2011/09/24 23:35:42 124.3KB">anaroot_v4.2.5.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.2.5.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.2.6.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2011/11/07 22:04:57 124.0KB">anaroot_v4.2.6.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.2.6.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.2.7.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2011/11/27 07:56:27 62.0KB">anaroot_v4.2.7.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.2.7.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.3.0.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2011/12/11 22:44:08 66.0KB">anaroot_v4.3.0.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.3.0.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.3.1.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2011/12/13 22:14:08 65.9KB">anaroot_v4.3.1.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.3.1.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.3.2.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2011/12/15 19:42:36 66.5KB">anaroot_v4.3.2.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.3.2.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.3.2.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=1" title="2011/12/15 18:56:21 66.4KB">anaroot_v4.3.2.tgz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.3.2.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.4.0.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2012/01/23 04:01:49 72.7KB">anaroot_v4.4.0.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.4.0.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.4.1.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2012/02/05 16:25:31 95.6KB">anaroot_v4.4.1.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.4.1.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.0.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2012/04/01 20:02:53 168.9KB">anaroot_v4.5.0.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.0.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.1.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2012/04/30 15:46:47 175.5KB">anaroot_v4.5.1.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.1.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.1.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=1" title="2012/04/30 15:13:34 175.5KB">anaroot_v4.5.1.tgz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.1.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.10.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2013/11/05 13:14:05 272.4KB">anaroot_v4.5.10.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.10.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.11.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2014/02/06 15:01:26 278.2KB">anaroot_v4.5.11.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.11.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.12.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2014/03/21 23:04:30 279.6KB">anaroot_v4.5.12.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.12.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.13.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2014/03/21 23:04:41 291.8KB">anaroot_v4.5.13.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.13.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.14.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2014/03/31 18:37:14 309.1KB">anaroot_v4.5.14.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.14.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.14.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=1" title="2014/03/31 07:06:49 303.4KB">anaroot_v4.5.14.tgz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.14.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=1" title="File information">Information</a>]</span>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.14.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=2" title="2014/03/31 12:32:39 309.1KB">anaroot_v4.5.14.tgz (backup No.2)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.14.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=2" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.15.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2014/05/20 19:26:27 323.0KB">anaroot_v4.5.15.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.15.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.16.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2014/10/02 03:42:38 320.5KB">anaroot_v4.5.16.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.16.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.17.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2014/10/29 19:48:46 327.6KB">anaroot_v4.5.17.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.17.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.17.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=1" title="2014/10/22 21:38:59 321.9KB">anaroot_v4.5.17.tgz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.17.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=1" title="File information">Information</a>]</span>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.17.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=2" title="2014/10/23 18:29:23 321.9KB">anaroot_v4.5.17.tgz (backup No.2)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.17.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=2" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.18.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2014/11/07 04:50:35 327.9KB">anaroot_v4.5.18.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.18.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.19.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2014/11/18 04:37:33 330.2KB">anaroot_v4.5.19.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.19.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.2.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2012/05/27 14:24:10 193.2KB">anaroot_v4.5.2.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.2.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.20.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2015/01/28 02:37:20 357.9KB">anaroot_v4.5.20.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.20.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.21.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2015/04/07 05:02:36 359.6KB">anaroot_v4.5.21.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.21.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.22.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2015/05/26 20:46:41 351.9KB">anaroot_v4.5.22.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.22.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.23.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2015/05/27 21:22:41 352.0KB">anaroot_v4.5.23.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.23.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.24.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2015/06/08 21:55:00 353.0KB">anaroot_v4.5.24.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.24.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.25.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2015/07/12 21:07:05 353.0KB">anaroot_v4.5.25.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.25.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.25.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=1" title="2015/07/09 16:08:20 353.0KB">anaroot_v4.5.25.tgz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.25.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.26.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2015/09/09 20:19:49 360.1KB">anaroot_v4.5.26.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.26.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.27.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2015/09/30 16:53:54 361.1KB">anaroot_v4.5.27.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.27.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.28.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2015/10/19 03:33:14 362.5KB">anaroot_v4.5.28.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.28.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.29.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2016/01/06 20:22:35 369.8KB">anaroot_v4.5.29.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.29.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.3.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2012/07/03 15:59:52 200.7KB">anaroot_v4.5.3.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.3.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.3.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=1" title="2012/07/02 03:49:45 200.7KB">anaroot_v4.5.3.tgz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.3.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.30.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2016/01/14 22:29:50 370.4KB">anaroot_v4.5.30.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.30.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.31.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2016/12/01 19:57:30 395.2KB">anaroot_v4.5.31.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.31.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.32.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2017/03/05 15:50:19 410.9KB">anaroot_v4.5.32.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.32.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.33.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2017/04/27 22:40:42 419.2KB">anaroot_v4.5.33.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.33.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.34.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2017/04/30 20:27:54 420.6KB">anaroot_v4.5.34.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.34.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.35.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2018/02/05 15:32:24 423.9KB">anaroot_v4.5.35.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.35.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.36.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2019/01/15 15:58:07 424.2KB">anaroot_v4.5.36.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.36.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.37.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2020/04/13 20:09:22 450.6KB">anaroot_v4.5.37.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.37.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.38.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2020/06/18 21:51:22 451.7KB">anaroot_v4.5.38.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.38.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.39.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2020/12/07 22:35:45 451.8KB">anaroot_v4.5.39.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.39.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.4.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2012/10/24 02:53:01 203.7KB">anaroot_v4.5.4.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.4.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.4.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=1" title="2012/09/30 22:55:30 202.7KB">anaroot_v4.5.4.tgz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.4.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=1" title="File information">Information</a>]</span>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.4.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=2" title="2012/10/01 20:17:04 202.7KB">anaroot_v4.5.4.tgz (backup No.2)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.4.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=2" title="File information">Information</a>]</span>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.4.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=3" title="2012/10/09 03:58:35 202.7KB">anaroot_v4.5.4.tgz (backup No.3)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.4.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=3" title="File information">Information</a>]</span>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.4.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=4" title="2012/10/10 19:05:24 204.4KB">anaroot_v4.5.4.tgz (backup No.4)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.4.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=4" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.5.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2012/11/20 20:07:46 218.7KB">anaroot_v4.5.5.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.5.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.6.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2013/06/23 16:29:38 225.1KB">anaroot_v4.5.6.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.6.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.6.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=1" title="2013/06/23 16:23:01 221.7KB">anaroot_v4.5.6.tgz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.6.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.7.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2013/08/07 02:24:59 254.9KB">anaroot_v4.5.7.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.7.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.7.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=1" title="2013/08/06 02:15:41 254.9KB">anaroot_v4.5.7.tgz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.7.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.8.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2013/09/23 16:05:57 267.6KB">anaroot_v4.5.8.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.8.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anaroot_v4.5.9.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2013/10/14 21:31:41 271.0KB">anaroot_v4.5.9.tgz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anaroot_v4.5.9.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=minos-1.1.1-minimal.tar.gz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="2014/06/23 03:12:58 1388.7KB">minos-1.1.1-minimal.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=minos-1.1.1-minimal.tar.gz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation" title="File information">Information</a>]</span>
+
+ </li>
+ <li>ribfroot_v4.1.2.tgz
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=ribfroot_v4.1.2.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=1" title="2010/03/03 14:58:35 196.7KB">ribfroot_v4.1.2.tgz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=ribfroot_v4.1.2.tgz&amp;refer=Tools%2FAnalysis%2FANAROOT%2FInstallation&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+</ul>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?Tools%2FAnalysis%2FANAROOT%2FTutorial" title="Tools/Analysis/ANAROOT/Tutorial (2470d)">Tools/Analysis/ANAROOT/Tutorial</a>
+<ul>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=AnaLoop.pdf&amp;refer=Tools%2FAnalysis%2FANAROOT%2FTutorial" title="2014/03/24 21:35:35 54.9KB">AnaLoop.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=AnaLoop.pdf&amp;refer=Tools%2FAnalysis%2FANAROOT%2FTutorial" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=AnafileEditor.pdf&amp;refer=Tools%2FAnalysis%2FANAROOT%2FTutorial" title="2014/03/24 21:35:26 85.8KB">AnafileEditor.pdf</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=AnafileEditor.pdf&amp;refer=Tools%2FAnalysis%2FANAROOT%2FTutorial" title="File information">Information</a>]</span>
+
+ </li>
+</ul>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?Tools%2FAnalysis%2FDownload" title="Tools/Analysis/Download (3703d)">Tools/Analysis/Download</a>
+<ul>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anapaw-ribf28-20110125.tar.gz&amp;refer=Tools%2FAnalysis%2FDownload" title="2011/01/24 16:45:47 156.3KB">anapaw-ribf28-20110125.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anapaw-ribf28-20110125.tar.gz&amp;refer=Tools%2FAnalysis%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anapaw-v2.3.1.tar.gz&amp;refer=Tools%2FAnalysis%2FDownload" title="2010/04/01 00:44:53 817.2KB">anapaw-v2.3.1.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anapaw-v2.3.1.tar.gz&amp;refer=Tools%2FAnalysis%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anapaw-v2.3.2.tar.gz&amp;refer=Tools%2FAnalysis%2FDownload" title="2010/06/28 21:59:01 1104.7KB">anapaw-v2.3.2.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anapaw-v2.3.2.tar.gz&amp;refer=Tools%2FAnalysis%2FDownload" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=anapaw-v2.3.2.tar.gz&amp;refer=Tools%2FAnalysis%2FDownload&amp;age=1" title="2010/06/28 21:51:36 1104.6KB">anapaw-v2.3.2.tar.gz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=anapaw-v2.3.2.tar.gz&amp;refer=Tools%2FAnalysis%2FDownload&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=src-ribf28-20110125.tar.gz&amp;refer=Tools%2FAnalysis%2FDownload" title="2011/01/24 16:45:35 233.3KB">src-ribf28-20110125.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=src-ribf28-20110125.tar.gz&amp;refer=Tools%2FAnalysis%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=usersrc-ribf57.tar.gz&amp;refer=Tools%2FAnalysis%2FDownload" title="2010/06/28 22:06:33 500.6KB">usersrc-ribf57.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=usersrc-ribf57.tar.gz&amp;refer=Tools%2FAnalysis%2FDownload" title="File information">Information</a>]</span>
+
+ </li>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=usersrc.tar.gz&amp;refer=Tools%2FAnalysis%2FDownload" title="2010/04/04 15:25:39 341.1KB">usersrc.tar.gz</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=usersrc.tar.gz&amp;refer=Tools%2FAnalysis%2FDownload" title="File information">Information</a>]</span>
+
+<ul>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=usersrc.tar.gz&amp;refer=Tools%2FAnalysis%2FDownload&amp;age=1" title="2010/04/01 00:45:04 341.1KB">usersrc.tar.gz (backup No.1)</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=usersrc.tar.gz&amp;refer=Tools%2FAnalysis%2FDownload&amp;age=1" title="File information">Information</a>]</span>
+</li>
+</ul>
+ </li>
+</ul>
+</li>
+<li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?Tools%2FAnalysis%2FRIBFCluster" title="Tools/Analysis/RIBFCluster (3428d)">Tools/Analysis/RIBFCluster</a>
+<ul>
+ <li><a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=open&amp;file=userapplication.txt&amp;refer=Tools%2FAnalysis%2FRIBFCluster" title="2010/03/30 23:04:35 1.4KB">userapplication.txt</a>
+<span class="small">[<a href="https://ribf.riken.jp/RIBFDAQ/index.php?plugin=attach&amp;pcmd=info&amp;file=userapplication.txt&amp;refer=Tools%2FAnalysis%2FRIBFCluster" title="File information">Information</a>]</span>
+
+ </li>
+</ul>
+</li>
+</ul>
+</div><!-- □END id:body -->
+
+<div id="summary"><!-- ■BEGIN id:summary -->
+<!-- □END id:note -->
+<div id="trackback"><!-- ■BEGIN id:trackback -->
+
+</div><!-- □ END id:trackback -->
+<!-- □ END id:related -->
+<!-- □ END id:attach -->
+
+<!-- === last modified === -->
+<!-- □END id:lastmodified -->
+
+
+</div><!-- □ END id:summary -->
+</div><!-- □END id:content -->
+</div><!-- □ END id:wrap_content -->
+<!-- ◆sidebar◆ ========================================================== -->
+<div id="wrap_sidebar"><!-- ■BEGIN id:wrap_sidebar -->
+<div id="sidebar">
+<div id="page_action" class="bar"><!-- ■BEGIN id:page_action -->
+</div><!-- □END id:page_action -->
+<!-- □END id:menubar -->
+</div><!-- □END id:sidebar -->
+</div><!-- □END id:wrap_sidebar -->
+</div><!-- □END id:main -->
+<!-- ◆ Footer ◆ ========================================================== -->
+<div id="footer"><!-- ■BEGIN id:footer -->
+<div id="copyright"><!-- ■BEGIN id:copyright -->
+ Produced by RIBFDAQ group. Powered by PukiWiki Plus!
+</div><!-- □END id:copyright -->
+</div><!-- □END id:footer -->
+<!-- ◆ END ◆ ============================================================= -->
+</div><!-- □END id:wrapper -->
+
+
+
+<script type="text/javascript">
+<!--
+    tzCalculation_LocalTimeZone ('ribf.riken.jp',false);
+-->
+</script></body>
+</html>
