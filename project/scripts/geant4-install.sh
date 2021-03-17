@@ -72,16 +72,19 @@ then
 	echo
 fi
 
-# Add Geant4 install path to project install script
-cp ${SCRIPTDIR}/project-install.sh ${PROJDIR}/project-install.sh
-sed -i  '/^PROJNAME/ { s|$|\"'"${PROJNAME}"'\"| }' ${PROJDIR}/project-install.sh
-sed -i  '/^PROJDIR/ { s|$|\"'"${PROJDIR}"'\"| }' ${PROJDIR}/project-install.sh
-sed -i  '/^GEANT4INSTALL/ { s|$|\"'"${GEANT4INSTALL}"'\"| }' ${PROJDIR}/project-install.sh
-chmod +x ${PROJDIR}/project-install.sh
+if [ ${ADD_NEBULA_INSTALL} = TRUE ];
+then
+	# Add Geant4 install path to project install script
+	cp ${SCRIPTDIR}/project-install.sh ${PROJDIR}/project-install.sh
+	sed -i  '/^PROJNAME/ { s|$|\"'"${PROJNAME}"'\"| }' ${PROJDIR}/project-install.sh
+	sed -i  '/^PROJDIR/ { s|$|\"'"${PROJDIR}"'\"| }' ${PROJDIR}/project-install.sh
+	sed -i  '/^GEANT4INSTALL/ { s|$|\"'"${GEANT4INSTALL}"'\"| }' ${PROJDIR}/project-install.sh
+	chmod +x ${PROJDIR}/project-install.sh
 
-echo
-echo "Generated install script for NEBULA project!"
-echo
+	echo
+	echo "Generated install script for NEBULA project!"
+	echo
+fi
 
 # Return to script directory
 cd ${SCRIPTDIR}

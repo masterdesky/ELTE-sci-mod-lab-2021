@@ -11,3 +11,6 @@ INSTALL_ROOT    : TRUE
 ROOT_ROOT       : "${TARGETDIR}/ROOT"
 INSTALL_ANAROOT : TRUE
 ANAROOT_ROOT    : "${TARGETDIR}/AnaROOT"
+
+# Adding install script for my NEBULA project directory
+ADD_NEBULA_INSTALL  : FALSE
