@@ -48,7 +48,7 @@ PrimaryGeneratorAction::PrimaryGeneratorAction()
   G4int n_particle = 1;
   fParticleGun  = new G4ParticleGun(n_particle);
 
-  // default particle kinematic
+  // Default particle kinematic
   G4ParticleTable* particleTable = G4ParticleTable::GetParticleTable();
   G4String particleName;
   G4ParticleDefinition* particle
@@ -69,7 +69,7 @@ PrimaryGeneratorAction::~PrimaryGeneratorAction()
 
 void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 {
-  //this function is called at the beginning of each event
+  // This function is called at the beginning of each event
   //
   G4double ux = 30 * (G4UniformRand () - 0.5) * cm;
   G4double uz = 30 * (G4UniformRand () - 0.5) * cm;

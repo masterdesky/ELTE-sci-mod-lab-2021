@@ -33,8 +33,6 @@
 #include "G4NistManager.hh"
 #include "G4Box.hh"
 #include "G4Cons.hh"
-#include "G4Orb.hh"
-#include "G4Sphere.hh"
 #include "G4Trd.hh"
 #include "G4LogicalVolume.hh"
 #include "G4PVPlacement.hh"
@@ -92,7 +90,9 @@ G4VPhysicalVolume *DetectorConstruction::Construct()
   //
   // Detector
   //
-  G4double counterSizeXY = 12 * cm, counterSizeZ = 180.*cm;
+  // Creating the BC-408 plastic scintillator (counter material)
+  // Dimensions of the NEUT rods: 12cm(H) x 12cm(T) x 180cm(V)
+  G4double counterSizeXY = 12*cm, counterSizeZ = 180*cm;
   G4double HMolarMass = 1.008 * g / mole;
   G4double CMolarMass = 12.0107 * g / mole;
   G4Element *elH = new G4Element ("Hydrogen", "H", 1, HMolarMass);
@@ -104,12 +104,15 @@ G4VPhysicalVolume *DetectorConstruction::Construct()
   G4Box *solidCounter = new G4Box("Counter",
                                   0.5*counterSizeXY, 0.5*counterSizeXY, 0.5*counterSizeZ);
 
-  int rows = 2, cols = 10;
+  // The NEBULA detector consists of 120 NEUT modules and 24 VETO modules,
+  // that are distributed to 60 NEUT and 12 VETO modules per each wall
+  // Here, only the NEUT modules of one of the sides are simulated (60 NEUT in 2 layers)
+  int rows = 2, cols = 30;
   for(int i = 0; i < cols; i++) {
 
     for(int j = 0; j < rows; j++) {
 
-      // row−major  coding
+      // row−major coding
       int code = j + rows*i;
       G4cout << code << G4endl;
       G4LogicalVolume *logicCounter = new G4LogicalVolume(solidCounter, counterMat, "Counter" + std::to_string(code));

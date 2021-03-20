@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.8...3.18)
 if(${CMAKE_VERSION} VERSION_LESS 3.12)
   cmake_policy(VERSION ${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION})
 endif()
-project(B1)
+project(NEBULA)
 
 #----------------------------------------------------------------------------
 # Find Geant4 package, activating all available UI and Vis drivers by default
@@ -35,17 +35,17 @@ file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.hh)
 #----------------------------------------------------------------------------
 # Add the executable, and link it to the Geant4 libraries
 #
-add_executable(project project.cc ${sources} ${headers})
-target_link_libraries(project ${Geant4_LIBRARIES})
+add_executable(project_nebula project_nebula.cc ${sources} ${headers})
+target_link_libraries(project_nebula ${Geant4_LIBRARIES})
 
 #----------------------------------------------------------------------------
-# Copy all scripts to the build directory, i.e. the directory in which we
-# build project. This is so that we can run the executable directly because it
-# relies on these scripts being in the current working directory.
+# Copy all scripts to the build directory, i.e. the directory in which we build
+# `project_nebula`. This is so that we can run the executable directly because
+# it relies on these scripts being in the current working directory.
 #
 set(PROJECT_SCRIPTS
-  project.in
-  project.out
+  project_nebula.in
+  project_nebula.out
   init_vis.mac
   run1.mac
   run2.mac
@@ -64,9 +64,9 @@ endforeach()
 # For internal Geant4 use - but has no effect if you build this
 # example standalone
 #
-add_custom_target(B1 DEPENDS project)
+add_custom_target(NEBULA DEPENDS project_nebula)
 
 #----------------------------------------------------------------------------
 # Install the executable to 'bin' directory under CMAKE_INSTALL_PREFIX
 #
-install(TARGETS project DESTINATION bin)
+install(TARGETS project_nebula DESTINATION bin)

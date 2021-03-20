@@ -1,8 +1,0 @@
-/home/masterdesky/GitHub/ELTE_Modelling_Lab_2021/project/project_nebula/B1_build/CMakeFiles/install/local.dir
-/home/masterdesky/GitHub/ELTE_Modelling_Lab_2021/project/project_nebula/B1_build/CMakeFiles/install/strip.dir
-/home/masterdesky/GitHub/ELTE_Modelling_Lab_2021/project/project_nebula/B1_build/CMakeFiles/B1.dir
-/home/masterdesky/GitHub/ELTE_Modelling_Lab_2021/project/project_nebula/B1_build/CMakeFiles/install.dir
-/home/masterdesky/GitHub/ELTE_Modelling_Lab_2021/project/project_nebula/B1_build/CMakeFiles/project.dir
-/home/masterdesky/GitHub/ELTE_Modelling_Lab_2021/project/project_nebula/B1_build/CMakeFiles/edit_cache.dir
-/home/masterdesky/GitHub/ELTE_Modelling_Lab_2021/project/project_nebula/B1_build/CMakeFiles/rebuild_cache.dir
-/home/masterdesky/GitHub/ELTE_Modelling_Lab_2021/project/project_nebula/B1_build/CMakeFiles/list_install_components.dir

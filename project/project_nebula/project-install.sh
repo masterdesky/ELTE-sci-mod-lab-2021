@@ -12,9 +12,9 @@ then
     cd ~-
 fi
 
-cd ${PROJDIR}/B1_build
-rm -rf ${PROJDIR}/B1_build/*
+cd ${PROJDIR}/NEBULA_build
+rm -rf ${PROJDIR}/NEBULA_build/*
 cmake -DGeant4_DIR=${GEANT4INSTALL}/lib/Geant4-10.7.1/ \
-			${PROJDIR}/B1 \
-			|& tee >(ts "[%x %X]" > ${PROJDIR}/B1_build/c.log)
-make -j4 B1 |& tee >(ts "[%x %X]" > ${PROJDIR}/B1_build/m.log)
+			${PROJDIR}/NEBULA \
+			|& tee >(ts "[%x %X]" > ${PROJDIR}/NEBULA_build/c.log)
+make -j4 NEBULA |& tee >(ts "[%x %X]" > ${PROJDIR}/NEBULA_build/m.log)
