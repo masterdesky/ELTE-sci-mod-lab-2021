@@ -1,0 +1,457 @@
+/run/verbose 2
+/run/initialize /control/execute vis.ma/tracking/storeTrajectory 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/initialize 
+/control/verbose 2
+/run/verbose 2
+/gun/particle neutron
+/gun/energy 100 MeV
+/run/printProgress 100
+nitialize
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/run/beamOn 5
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/beamOn 1
+/control/execute run1.mac
+/run/initialize
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/run/beamOn 5
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/beamOn 1
+/control/execute run1.mac
+/run/initialize
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/run/beamOn 5
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/beamOn 1
+/control/execute run1.mac
+/run/initialize
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/run/beamOn 5
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/beamOn 1
+/control/execute run1.mac
+/run/initialize
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/run/beamOn 5
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/beamOn 1
+/control/execute run1.mac
+/run/initialize
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/run/beamOn 5
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/beamOn 1
+/control/execute run1.mac
+/run/initialize
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/run/beamOn 5
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/beamOn 1
+/control/execute run1.mac
+/run/initialize
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/run/beamOn 5
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/beamOn 1
+/control/execute run1.mac
+/run/initialize
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/run/beamOn 5
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/beamOn 1
+/control/execute run1.mac
+/run/initialize
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/run/beamOn 5
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/beamOn 1
+/control/execute run1.mac
+/run/initialize
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/run/beamOn 5
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/beamOn 1
+/control/execute run1.mac
+/run/initialize
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/run/beamOn 5
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/beamOn 1
+/control/execute run1.mac
+/run/initialize
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/run/beamOn 5
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/beamOn 1
+/control/execute run1.mac
+/run/initialize
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+/gun/particle neutron
+/gun/energy 100 MeV
+/run/beamOn 5
+/gun/particle proton
+/gun/energy 210 MeV
+/tracking/verbose 2
+/run/beamOn 1
+/control/execute run2.mac
+/run/initialize
+/control/verbose 2
+/run/verbose 2
+/gun/particle neutron
+/gun/energy 100 MeV
+/run/printProgress 100
+/run/beamOn 1000
