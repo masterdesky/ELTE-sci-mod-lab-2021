@@ -3,7 +3,7 @@
 export GEANT4APPS=${GEANT4_ROOT}/apps
 export GEANT4BUILD=${GEANT4_ROOT}/build
 export GEANT4INSTALL=${GEANT4_ROOT}/install
-export GEANT4SRC=${GEANT4_ROOT}/geant4.10.07.p01/
+export GEANT4SRC=${GEANT4_ROOT}/src/
 
 mkdir -p ${GEANT4APPS} ${GEANT4BUILD} ${GEANT4INSTALL}
 
@@ -14,9 +14,10 @@ then
 	echo "Downloading Geant4..."
 	echo
 
-  wget http://geant4-data.web.cern.ch/geant4-data/releases/source/geant4.10.07.p01.tar.gz -P ${GEANT4_ROOT}
-  tar -xzvf ${GEANT4_ROOT}/geant4.10.07.p01.tar.gz -C ${GEANT4_ROOT}
-  rm -f ${GEANT4_ROOT}/geant4.10.07.p01.tar.gz
+	git clone https://salsa.debian.org/science-team/geant4.git ${GEANT4SRC}
+  #wget http://geant4-data.web.cern.ch/geant4-data/releases/source/geant4.10.07.p01.tar.gz -P ${GEANT4_ROOT}
+  #tar -xzvf ${GEANT4_ROOT}/geant4.10.07.p01.tar.gz -C ${GEANT4_ROOT}
+  #rm -f ${GEANT4_ROOT}/geant4.10.07.p01.tar.gz
 fi
 
 if [ ${INSTALL_GEANT4} = "TRUE" ];

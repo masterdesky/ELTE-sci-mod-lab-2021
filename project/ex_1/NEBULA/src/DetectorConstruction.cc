@@ -56,13 +56,15 @@ DetectorConstruction::~DetectorConstruction()
 
 G4VPhysicalVolume* DetectorConstruction::Construct()
 {  
-  // Get NIST material manager
+  // Get nist material manager
   G4NistManager* nist = G4NistManager::Instance();
+
+  // Material of the outside things
+  G4Material* world_mat = nist->FindOrBuildMaterial("G4_Galactic");
   
   // Envelope parameters
   //
-  G4double env_sizeXY = 20*cm, env_sizeZ = 15*cm;
-  G4Material* env_mat = nist->FindOrBuildMaterial("G4_Galactic");
+  G4double env_sizeXY = 3*m, env_sizeZ = 2.5*m;
 
   // Option to switch on/off checking of volumes overlaps
   //
@@ -73,7 +75,6 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   //
   G4double world_sizeXY = 1.2*env_sizeXY;
   G4double world_sizeZ  = 1.2*env_sizeZ;
-  G4Material* world_mat = nist->FindOrBuildMaterial("G4_Galactic");
   
   G4Box* solidWorld =    
     new G4Box("World",                       //its name
@@ -103,7 +104,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
       
   G4LogicalVolume* logicEnv =                         
     new G4LogicalVolume(solidEnv,            //its solid
-                        env_mat,             //its material
+                        world_mat,             //its material
                         "Envelope");         //its name
                
   new G4PVPlacement(0,                       //no rotation
@@ -116,11 +117,9 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
                     checkOverlaps);          //overlaps checking
 
   //
-  // NEBULA detector
+  //  NEBULA detector
   //
   // Creating the BC-408 plastic scintillator (counter material)
-  // Dimensions of the NEUT rods: 12cm(H) x 12cm(T) x 180cm(V)
-  //G4double counterSizeXY = 12*cm, counterSizeZ = 180*cm;
   G4double HMolarMass = 1.008 * g / mole;
   G4double CMolarMass = 12.0107 * g / mole;
   G4Element *elH = new G4Element ("Hydrogen", "H", 1, HMolarMass);
@@ -129,16 +128,49 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   G4Material *counterMat = new G4Material("counterMaterial", densityCounter, 2);
   counterMat->AddElement(elH, 0.5245);
   counterMat->AddElement(elC, 0.4755);
-  //G4Box *solidCounter = new G4Box("Counter",
-  //                                0.5*counterSizeXY, 0.5*counterSizeXY, 0.5*counterSizeZ);
 
+  // The NEBULA detector consists of 120 NEUT modules and 24 VETO modules,
+  // that are distributed to 60 NEUT and 12 VETO modules per each wall
+  // Here, only the NEUT modules of one of the sides are simulated (60 NEUT in 2 layers)
+  // Dimensions of the NEUT rods: 12cm(H) x 12cm(T) x 180cm(V)
+  G4double counterSizeX = 12*cm, counterSizeY = 180*cm, counterSizeZ = 12*cm;
+  G4Box *solidCounter = new G4Box("Counter",
+                                  0.5*counterSizeX, 0.5*counterSizeY, 0.5*counterSizeZ);
+  int rows = 2, cols = 10;
+  for(int i = 0; i < cols; i++) {
+
+    for(int j = 0; j < rows; j++) {
+
+      // row−major coding
+      int code = j + rows*i;
+      G4cout << code << G4endl;
+      G4LogicalVolume *logicCounter = new G4LogicalVolume(solidCounter, counterMat, "Counter" + std::to_string(code));
+      G4ThreeVector posCounter = G4ThreeVector(
+                                                (i-0.5*( (double)cols-1) )*counterSizeX,
+                                                0,
+                                                (j-0.5*( (double)rows-1) )*counterSizeZ
+                                              );
+      new G4PVPlacement(0,
+                        posCounter,
+                        logicCounter,
+                        "Counter" + std::to_string(code),
+                        logicWorld,
+                        false,
+                        code,
+                        checkOverlaps) ;
+    }
+  }
+
+  //
+  //  Scoring module
+  //
   //G4Material* shape1_mat = nist->FindOrBuildMaterial("G4_A-150_TISSUE");
-  G4ThreeVector pos_nebula = G4ThreeVector(0, 2*cm, 0*cm);
+  G4ThreeVector pos_nebula = G4ThreeVector(0, 0, -1*m);
 
   // Conical section shape
-  G4double shape1_rmina =  0.*cm, shape1_rmaxa = 2.*cm;
-  G4double shape1_rminb =  0.*cm, shape1_rmaxb = 4.*cm;
-  G4double shape1_hz = 3.*cm;
+  G4double shape1_rmina =  0.*cm, shape1_rmaxa = 0.3*m;
+  G4double shape1_rminb =  0.*cm, shape1_rmaxb = 0.9*m;
+  G4double shape1_hz = 0.2*m;
   G4double shape1_phimin = 0.*deg, shape1_phimax = 360.*deg;
   G4Cons* solidShape1 =    
     new G4Cons("NEBULA", 
@@ -147,7 +179,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 
   G4LogicalVolume* logicShape1 =                         
     new G4LogicalVolume(solidShape1,         //its solid
-                        counterMat,          //its material
+                        world_mat,          //its material
                         "NEBULA");           //its name
 
   new G4PVPlacement(0,                       //no rotation
@@ -159,7 +191,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
                     0,                       //copy number
                     checkOverlaps);          //overlaps checking
 
-                
+
   // Set NEBULA as the scoring volume
   //
   fScoringVolume = logicShape1;

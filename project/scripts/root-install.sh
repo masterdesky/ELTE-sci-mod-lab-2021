@@ -4,8 +4,6 @@ export ROOTBUILD="${ROOT_ROOT}/root_build"
 export ROOTINSTALL="${ROOT_ROOT}/root_install"
 export ROOTSRC="${ROOT_ROOT}/root_src"
 
-mkdir -p ${ROOTBUILD} ${ROOTINSTALL}
-
 if [ ! -d ${ROOTSRC} ];
 then
 	# Downloading ROOT
@@ -22,6 +20,8 @@ then
 	echo
 	echo "Installing ROOT..."
 	echo
+
+	mkdir -p ${ROOTBUILD} ${ROOTINSTALL}
 
 	cd ${ROOTBUILD}
 	if [ -f ${ROOTBUILD}/mi.log ]; then
