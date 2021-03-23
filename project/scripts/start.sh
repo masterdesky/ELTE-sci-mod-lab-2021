@@ -5,8 +5,8 @@
 # sudo apt install automake autoconf libtool libedit
 # sudo apt install libqt4-dev qtbase5-dev
 
-export PIPELINEDIR="${HOME}/GitHub/ELTE_Modelling_Lab_2021/project"
-export SCRIPTDIR="${PIPELINEDIR}/scripts"
+export SCRIPTDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+export PIPELINEDIR="${SCRIPTDIR%/*}"
 
 # Setup bash environment for further scripts
 source ${SCRIPTDIR}/setup_env.sh
