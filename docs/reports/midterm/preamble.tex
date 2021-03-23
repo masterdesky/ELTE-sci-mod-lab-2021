@@ -87,6 +87,9 @@
 
 % Inserting images
 \usepackage{graphicx}	% Adds optional arguments for \includegraphics
+\newenvironment{Figure}
+  {\par\medskip\noindent\minipage{\linewidth}}
+  {\endminipage\par\medskip}
 \usepackage{wrapfig}		% Makes text wrapping around image available
 \usepackage[skip=2pt, font={small}, justification=centering]{caption}	% Fig caption configuration
 

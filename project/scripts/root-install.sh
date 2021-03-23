@@ -45,7 +45,6 @@ if [ -f ${ROOTINSTALL}/bin/thisroot.sh ];
 then
 	source ${ROOTINSTALL}/bin/thisroot.sh
 
-
   echo
 	echo "Sourced ROOT!"
 	echo

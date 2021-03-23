@@ -35,7 +35,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/masterdesky/GitHub/ELTE_Modelling_Lab_2021/project/ex_1/NEBULA/include"
-  "/home/masterdesky/apps/geant4/install/include/Geant4"
+  "/home/masterdesky/apps/Geant4/install/include/Geant4"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"
   "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"

@@ -2,13 +2,15 @@
 export TARGETDIR="${HOME}/apps"
 export PROJNAME="project_nebula"
 export PROJDIR="${PIPELINEDIR}/${PROJNAME}"
-export COMPUTER="my_comp"
 
 # LOCATION OF BASIC APPS TO BE INSTALLED AND
 # WHETHER OF THEM TO BE INSTALLED
-export INSTALL_GEANT4="FALSE"
-export GEANT4_ROOT=""${TARGETDIR}/geant4""
+export INSTALL_GEANT4="TRUE"
+export GEANT4_ROOT=""${TARGETDIR}/Geant4""
 export INSTALL_ROOT="FALSE"
 export ROOT_ROOT=""${TARGETDIR}/ROOT""
-export INSTALL_ANAROOT="TRUE"
+export INSTALL_ANAROOT="FALSE"
 export ANAROOT_ROOT=""${TARGETDIR}/AnaROOT""
+
+# Adding install script for my NEBULA project directory
+export ADD_NEBULA_INSTALL="FALSE"

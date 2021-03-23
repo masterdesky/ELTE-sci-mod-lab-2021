@@ -234,7 +234,7 @@ Fontconfig_INCLUDE_DIR:PATH=/usr/include
 Fontconfig_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libfontconfig.so
 
 //No help, variable specified on the command line.
-Geant4_DIR:UNINITIALIZED=/home/masterdesky/apps/geant4/install/lib/Geant4-10.7.1/
+Geant4_DIR:UNINITIALIZED=/home/masterdesky/apps/Geant4/install/lib/Geant4-10.7.1/
 
 //Value Computed by CMake
 NEBULA_BINARY_DIR:STATIC=/home/masterdesky/GitHub/ELTE_Modelling_Lab_2021/project/ex_1/NEBULA_build
@@ -273,7 +273,7 @@ OPENGL_xmesa_INCLUDE_DIR:PATH=OPENGL_xmesa_INCLUDE_DIR-NOTFOUND
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
 //The directory containing a CMake configuration file for PTL.
-PTL_DIR:PATH=/home/masterdesky/apps/geant4/install/lib/Geant4-10.7.1/PTL
+PTL_DIR:PATH=/home/masterdesky/apps/Geant4/install/lib/Geant4-10.7.1/PTL
 
 //The directory containing a CMake configuration file for Qt5Core.
 Qt5Core_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Core

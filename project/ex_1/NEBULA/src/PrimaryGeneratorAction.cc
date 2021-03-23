@@ -55,8 +55,8 @@ PrimaryGeneratorAction::PrimaryGeneratorAction()
   G4ParticleDefinition* particle
     = particleTable->FindParticle(particleName="neutron");
   fParticleGun->SetParticleDefinition(particle);
-  fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0.,0.,1.));
-  fParticleGun->SetParticleEnergy(10*MeV);
+  fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0.,0,-1.));
+  fParticleGun->SetParticleEnergy(100*MeV);
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -70,7 +70,8 @@ PrimaryGeneratorAction::~PrimaryGeneratorAction()
 
 void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 {
-  //this function is called at the begining of ecah event
+  //
+  //this function is called at the beginning of each event
   //
 
   // In order to avoid dependence of PrimaryGeneratorAction
@@ -88,8 +89,8 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
   }
 
   if ( fEnvelopeBox ) {
-    envSizeXY = fEnvelopeBox->GetXHalfLength()*2.;
-    envSizeZ = fEnvelopeBox->GetZHalfLength()*2.;
+    envSizeXY = fEnvelopeBox->GetXHalfLength();
+    envSizeZ = fEnvelopeBox->GetZHalfLength();
   }  
   else  {
     G4ExceptionDescription msg;
@@ -100,13 +101,22 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
      "MyCode0002",JustWarning,msg);
   }
 
-  G4double size = 0.3; 
+  // Starting position of a particle
+  G4double size = 0.6; 
   G4double x0 = size * envSizeXY * (G4UniformRand()-0.5);
   G4double y0 = size * envSizeXY * (G4UniformRand()-0.5);
-  G4double z0 = 0.5 * envSizeZ;
-  
+  G4double z0 = 1.0 * envSizeZ;
+
   fParticleGun->SetParticlePosition(G4ThreeVector(x0,y0,z0));
-  fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0, 0, -1));
+
+  // Random inclinations for neutron beams
+  // Angles are measured in radians
+  G4double ang_max = 5;
+  G4double rad_max = ang_max / 180 * 3.14159265358979323846264338;
+  G4double x0_p = rad_max * (G4UniformRand()-0.5) * 2;
+  G4double y0_p = rad_max * (G4UniformRand()-0.5) * 2;
+
+  fParticleGun->SetParticleMomentumDirection(G4ThreeVector(x0_p, y0_p, -1));
   fParticleGun->GeneratePrimaryVertex(anEvent);
 }
 

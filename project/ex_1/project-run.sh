@@ -2,7 +2,7 @@
 
 PROJNAME="project_nebula"
 PROJDIR="/home/masterdesky/GitHub/ELTE_Modelling_Lab_2021/project/ex_1"
-GEANT4INSTALL="/home/masterdesky/apps/geant4/install"
+GEANT4INSTALL="/home/masterdesky/apps/Geant4/install"
 
 # Source Geant4
 if [ -f ${GEANT4INSTALL}/bin/geant4.sh ];

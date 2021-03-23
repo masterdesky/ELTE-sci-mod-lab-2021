@@ -14,10 +14,11 @@ then
 	echo "Downloading Geant4..."
 	echo
 
-	git clone https://salsa.debian.org/science-team/geant4.git ${GEANT4SRC}
-  #wget http://geant4-data.web.cern.ch/geant4-data/releases/source/geant4.10.07.p01.tar.gz -P ${GEANT4_ROOT}
-  #tar -xzvf ${GEANT4_ROOT}/geant4.10.07.p01.tar.gz -C ${GEANT4_ROOT}
-  #rm -f ${GEANT4_ROOT}/geant4.10.07.p01.tar.gz
+	#git clone https://salsa.debian.org/science-team/geant4.git ${GEANT4SRC}
+  wget http://geant4-data.web.cern.ch/geant4-data/releases/source/geant4.10.07.p01.tar.gz -P ${GEANT4_ROOT}
+  tar -xzvf ${GEANT4_ROOT}/geant4.10.07.p01.tar.gz -C ${GEANT4_ROOT}
+  mv ${GEANT4_ROOT}/geant4.10.07.p01 ${GEANT4SRC}
+  rm -f ${GEANT4_ROOT}/geant4.10.07.p01.tar.gz
 fi
 
 if [ ${INSTALL_GEANT4} = "TRUE" ];

@@ -64,7 +64,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   
   // Envelope parameters
   //
-  G4double env_sizeXY = 3*m, env_sizeZ = 2.5*m;
+  G4double env_sizeXY = 2*m, env_sizeZ = 4*m;
 
   // Option to switch on/off checking of volumes overlaps
   //
@@ -77,8 +77,8 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   G4double world_sizeZ  = 1.2*env_sizeZ;
   
   G4Box* solidWorld =    
-    new G4Box("World",                       //its name
-       0.5*world_sizeXY, 0.5*world_sizeXY, 0.5*world_sizeZ);     //its size
+    new G4Box("World",                                            //its name
+       0.5*world_sizeXY, 0.5*world_sizeXY, 0.5*world_sizeZ);      //its size
       
   G4LogicalVolume* logicWorld =                         
     new G4LogicalVolume(solidWorld,          //its solid
@@ -94,7 +94,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
                       false,                 //no boolean operation
                       0,                     //copy number
                       checkOverlaps);        //overlaps checking
-                     
+
   //     
   // Envelope
   //  
@@ -104,7 +104,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
       
   G4LogicalVolume* logicEnv =                         
     new G4LogicalVolume(solidEnv,            //its solid
-                        world_mat,             //its material
+                        world_mat,           //its material
                         "Envelope");         //its name
                
   new G4PVPlacement(0,                       //no rotation
@@ -144,17 +144,19 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
       // row−major coding
       int code = j + rows*i;
       G4cout << code << G4endl;
-      G4LogicalVolume *logicCounter = new G4LogicalVolume(solidCounter, counterMat, "Counter" + std::to_string(code));
+      G4LogicalVolume *logicCounter = new G4LogicalVolume(solidCounter,
+                                                          counterMat,
+                                                          "Counter" + std::to_string(code));
       G4ThreeVector posCounter = G4ThreeVector(
                                                 (i-0.5*( (double)cols-1) )*counterSizeX,
                                                 0,
-                                                (j-0.5*( (double)rows-1) )*counterSizeZ
+                                                1.5*m + (j-0.5*( (double)rows-1) )*counterSizeZ
                                               );
       new G4PVPlacement(0,
                         posCounter,
                         logicCounter,
                         "Counter" + std::to_string(code),
-                        logicWorld,
+                        logicEnv,
                         false,
                         code,
                         checkOverlaps) ;
@@ -168,31 +170,31 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   G4ThreeVector pos_nebula = G4ThreeVector(0, 0, -1*m);
 
   // Conical section shape
-  G4double shape1_rmina =  0.*cm, shape1_rmaxa = 0.3*m;
+  G4double shape1_rmina =  0.*cm, shape1_rmaxa = 0.9*m;
   G4double shape1_rminb =  0.*cm, shape1_rmaxb = 0.9*m;
   G4double shape1_hz = 0.2*m;
   G4double shape1_phimin = 0.*deg, shape1_phimax = 360.*deg;
   G4Cons* solidShape1 =    
-    new G4Cons("NEBULA", 
+    new G4Cons("Scoring", 
     shape1_rmina, shape1_rmaxa, shape1_rminb, shape1_rmaxb, shape1_hz,
     shape1_phimin, shape1_phimax);
 
   G4LogicalVolume* logicShape1 =                         
     new G4LogicalVolume(solidShape1,         //its solid
-                        world_mat,          //its material
-                        "NEBULA");           //its name
+                        world_mat,           //its material
+                        "Scoring");          //its name
 
   new G4PVPlacement(0,                       //no rotation
                     pos_nebula,              //at position
                     logicShape1,             //its logical volume
-                    "NEBULA",                //its name
+                    "Scoring",               //its name
                     logicEnv,                //its mother  volume
                     false,                   //no boolean operation
                     0,                       //copy number
                     checkOverlaps);          //overlaps checking
 
 
-  // Set NEBULA as the scoring volume
+  // Set `Scoring` as the scoring volume
   //
   fScoringVolume = logicShape1;
 
