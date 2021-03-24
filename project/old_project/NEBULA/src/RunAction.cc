@@ -30,7 +30,6 @@
 #include "RunAction.hh"
 #include "PrimaryGeneratorAction.hh"
 #include "DetectorConstruction.hh"
-// #include "Run.hh"
 
 #include "G4RunManager.hh"
 #include "G4Run.hh"
@@ -80,14 +79,13 @@ void RunAction::BeginOfRunAction(const G4Run*)
   // reset accumulables to their initial values
   G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
   accumulableManager->Reset();
-
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 void RunAction::EndOfRunAction(const G4Run* run)
 {
-  G4int nofEvents = run->GetNumberOfEvent();
+	G4int nofEvents = run->GetNumberOfEvent();
   if (nofEvents == 0) return;
 
   // Merge accumulables 
@@ -122,9 +120,9 @@ void RunAction::EndOfRunAction(const G4Run* run)
     runCondition += particleGun->GetParticleDefinition()->GetParticleName();
     runCondition += " of ";
     G4double particleEnergy = particleGun->GetParticleEnergy();
-    runCondition += G4BestUnit(particleEnergy, "Energy");
+    runCondition += G4BestUnit(particleEnergy,"Energy");
   }
-        
+
   // Print
   //  
   if (IsMaster()) {
@@ -150,14 +148,11 @@ void RunAction::EndOfRunAction(const G4Run* run)
      << G4endl;
 }
 
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-
 void RunAction::AddEdep(G4double edep)
 {
   fEdep  += edep;
   fEdep2 += edep*edep;
 }
-
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 

@@ -24,42 +24,35 @@
 // ********************************************************************
 //
 //
-/// \file PrimaryGeneratorAction.hh
-/// \brief Definition of the PrimaryGeneratorAction class
+/// \file DetectorConstruction.hh
+/// \brief Definition of the DetectorConstruction class
 
-#ifndef PrimaryGeneratorAction_h
-#define PrimaryGeneratorAction_h 1
+#ifndef DetectorConstruction_h
+#define DetectorConstruction_h 1
 
-#include "G4VUserPrimaryGeneratorAction.hh"
-#include "G4ParticleGun.hh"
+#include "G4VUserDetectorConstruction.hh"
 #include "globals.hh"
 
-class G4ParticleGun;
-class G4Event;
-class G4Box;
+class G4VPhysicalVolume;
+class G4LogicalVolume;
 
-/// The primary generator action class with particle gun.
-///
-/// The default kinematic is a 100 MeV neutron, randomly distributed 
-/// in front of the phantom across 80% of the (X,Y) phantom size.
+/// Detector construction class to define materials and geometry.
 
-class PrimaryGeneratorAction : public G4VUserPrimaryGeneratorAction
+class DetectorConstruction : public G4VUserDetectorConstruction
 {
   public:
-    PrimaryGeneratorAction();    
-    virtual ~PrimaryGeneratorAction();
+    DetectorConstruction();
+    virtual ~DetectorConstruction();
 
-    // method from the base class
-    virtual void GeneratePrimaries(G4Event*);         
-  
-    // method to access particle gun
-    const G4ParticleGun* GetParticleGun() const { return fParticleGun; }
-  
-  private:
-    G4ParticleGun*  fParticleGun; // pointer a to G4 gun class
-    G4Box* fEnvelopeBox;
+    virtual G4VPhysicalVolume* Construct();
+    
+    G4LogicalVolume* GetScoringVolume() const { return fScoringVolume; }
+
+  protected:
+    G4LogicalVolume*  fScoringVolume;
 };
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 #endif
+

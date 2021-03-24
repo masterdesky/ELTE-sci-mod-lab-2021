@@ -1,0 +1,20 @@
+* title slide *
+Hi everyone in this presentation! I thought that since this is the midterm presentation and thus it is a somewhat bigger one, I want to tell you again some of the main goals and background of the project I'm working on. Later on I'll present you what goals did I achieve throughout the course until now and also show you my actual work on the project. My supervisor is still Ákos Horváth and let's start.
+
+
+
+* slide 1 *
+As you know my project is about creating a nuclear physics simulation. More precisely I'm intended to implement inside a computer simulation environment the Japanese NEBULA detector - which is part of the SAMURAI beam line system in the RIKEN Research Institute. This detector is primarily designed to detect neutrons in this given 100 to 300 MeV energy range, originated from various particle events. We study this particular detector because of numerous reasons. But the one reason what I wanted to emphasize is that NEBULA produces results with state-of-the-art accuracy and resolution, when it comes to neutron detection, which makes it already a fascinating interest of study even on itself.
+
+The NEBULA detector is a so-called plastic scintillator array. "Plastic scintillator" means, that the counter material in the detector is a scintillator made out of plastic (in this case this scintillator material is called as BC-408), while the "array" term means, that the detector consists of several smaller, but similar elements. Scintillator rods to be precise. These rods are organized into 2 big blocks, where a block consists of 60 so-called NEUT scintillator rods in two layers, and a third layer of 12 VETO rods. NEUT rods are responsible for the neutron detection, while VETO rods are responsible for the detection of charged particles. In summary, the NEBULA detector consist of 120 NEUT and 24 VETO rods, so 144 scintillator rods in total.
+
+
+
+* slide 2 *
+So my project work is to implement this NEBULA system that I just described and test, how it behaves when a neutron beam passes through it. For this, I'm using the Geant4 simulation toolkit. The word "Geant" comes from the term "GEometry ANd Tracking". This is the fourth iteration of a nearly 50 years (5 decades) old software package. Nowadays it offers an immense number of tools for the users and it can be easily considered as a full-fledged simulation engine to develop softwares on. This makes using Geant4 an actual software developing job even at the most basic level. But despite it's very steep learning curve even from the very beginning, it is still possible to learn it.
+
+To create any kind of simulations using Geant4, one has to define exactly 2 important things (or blocks, or section or whatever we call it) in order to succeed. The first block is what we refer to as "detector construction" or more like "geometry construction". This can be interpreted as some kind of 3D modeling environment. Before doing anything, here we have to create a so-called "World" volume, which encompasses everything, that happens in the simulation. This is the border of the universe in our simulations. If something leaves it, or clips out of it, that ceases to exists forever. After we constructed the "World", we can place everything else, inside this volume. Our detectors, target blocks, we place every physical object into this 3D environment, that we want to include in our simulation.
+
+Blocks can be defined with arbitrary dimensions and shapes, as long as they stay inside the World volume. We also need to assign some very basic and necessary properties to our shapes/geometries, like the type of their materials, their exact behaviour in the simulation, and so on. A lot of things required and a myriad of properties are optional on top of that.
+
+If the geometry construction is done, we can discuss the particle beam construction.

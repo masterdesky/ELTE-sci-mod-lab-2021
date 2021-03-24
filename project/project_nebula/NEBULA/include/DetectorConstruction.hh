@@ -55,4 +55,3 @@ class DetectorConstruction : public G4VUserDetectorConstruction
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 #endif
-

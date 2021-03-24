@@ -43,20 +43,19 @@
 
 PrimaryGeneratorAction::PrimaryGeneratorAction()
 : G4VUserPrimaryGeneratorAction(),
-  fParticleGun(0), 
-  fEnvelopeBox(0)
+  fParticleGun(0)
 {
   G4int n_particle = 1;
   fParticleGun  = new G4ParticleGun(n_particle);
 
-  // default particle kinematic
+  // Default particle kinematic
   G4ParticleTable* particleTable = G4ParticleTable::GetParticleTable();
   G4String particleName;
   G4ParticleDefinition* particle
     = particleTable->FindParticle(particleName="neutron");
   fParticleGun->SetParticleDefinition(particle);
-  fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0.,0,-1.));
-  fParticleGun->SetParticleEnergy(100*MeV);
+  fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0, 0, 1));
+  fParticleGun->SetParticleEnergy(10 * MeV);
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -70,53 +69,13 @@ PrimaryGeneratorAction::~PrimaryGeneratorAction()
 
 void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 {
+  // This function is called at the beginning of each event
   //
-  //this function is called at the beginning of each event
-  //
-
-  // In order to avoid dependence of PrimaryGeneratorAction
-  // on DetectorConstruction class we get Envelope volume
-  // from G4LogicalVolumeStore.
-  
-  G4double envSizeXY = 0;
-  G4double envSizeZ = 0;
-
-  if (!fEnvelopeBox)
-  {
-    G4LogicalVolume* envLV
-      = G4LogicalVolumeStore::GetInstance()->GetVolume("Envelope");
-    if ( envLV ) fEnvelopeBox = dynamic_cast<G4Box*>(envLV->GetSolid());
-  }
-
-  if ( fEnvelopeBox ) {
-    envSizeXY = fEnvelopeBox->GetXHalfLength();
-    envSizeZ = fEnvelopeBox->GetZHalfLength();
-  }  
-  else  {
-    G4ExceptionDescription msg;
-    msg << "Envelope volume of box shape not found.\n"; 
-    msg << "Perhaps you have changed geometry.\n";
-    msg << "The gun will be place at the center.";
-    G4Exception("PrimaryGeneratorAction::GeneratePrimaries()",
-     "MyCode0002",JustWarning,msg);
-  }
-
-  // Starting position of a particle
-  G4double size = 0.6; 
-  G4double x0 = size * envSizeXY * (G4UniformRand()-0.5);
-  G4double y0 = size * envSizeXY * (G4UniformRand()-0.5);
-  G4double z0 = 1.0 * envSizeZ;
-
-  fParticleGun->SetParticlePosition(G4ThreeVector(x0,y0,z0));
-
-  // Random inclinations for neutron beams
-  // Angles are measured in radians
-  G4double ang_max = 5;
-  G4double rad_max = ang_max / 180 * 3.14159265358979323846264338;
-  G4double x0_p = rad_max * (G4UniformRand()-0.5) * 2;
-  G4double y0_p = rad_max * (G4UniformRand()-0.5) * 2;
-
-  fParticleGun->SetParticleMomentumDirection(G4ThreeVector(x0_p, y0_p, -1));
+  G4double ux = 30 * (G4UniformRand () - 0.5) * cm;
+  G4double uz = 30 * (G4UniformRand () - 0.5) * cm;
+  G4double uy = 50 * cm;
+  fParticleGun->SetParticlePosition(G4ThreeVector(ux, uy, uz));
+  fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0, -1, 0));
   fParticleGun->GeneratePrimaryVertex(anEvent);
 }
 

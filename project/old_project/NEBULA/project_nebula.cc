@@ -24,8 +24,6 @@
 // ********************************************************************
 //
 //
-/// \file project_nebula.cc
-/// \brief Main program of the NEBULA project
 
 #include "DetectorConstruction.hh"
 #include "ActionInitialization.hh"
@@ -52,7 +50,7 @@ int main(int argc,char** argv)
   }
 
   // Optionally: choose a different Random engine...
-  // G4Random::setTheEngine(new CLHEP::MTwistEngine);
+  G4Random::setTheEngine(new CLHEP::MTwistEngine);
   
   // Construct the default run manager
   //

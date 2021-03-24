@@ -2,24 +2,24 @@
 %	SLIDE 1.
 %----------------------------------------------------------------------------------------
 \begin{frame}
-\frametitle{Simulation of the NEBULA detector}
+\frametitle{The NEBULA detector}
 
-\begin{block}{Initial considerations}
+\begin{alertblock}{Function and goals}
 	\begin{itemize}
-		\item Installing smsimulator, which uses libraries from ROOT and ANAROOT and headers and binaries from Geant4
-		\item This software could be used to simulate the NEBULA detector with very high accuracy
-		\item Installing and configuring it seems to be a nightmare currently
+		\item Part of the SAMURAI beam line
+		\item Goal is to detect neutrons between $100$ and $300$ MeV
+		\item High accuracy, large acceptance and sufficient position and velocity resolution
 	\end{itemize}
-\end{block}
+\end{alertblock}
 
 \pause
 
-\begin{alertblock}{Changed roadmap}
+\begin{block}{Structure of NEBULA}
 	\begin{itemize}
-		\item Temporarily abort the idea of using smsimulator
-		\item Implementing a simplified version of the NEBULA  detector
-		\item It should be still able to give good approximations
+		\item Consist of $120$ \texttt{NEUT} and $24$ \texttt{VETO} rods
+		\item Plastic scintillator rods, filled with the BC-$408$ material
+		\item One block consists of $2 \times 30$ \texttt{NEUT} modules in $2$ layers with $12$ \texttt{VETO} modules
 	\end{itemize}
-\end{alertblock}
+\end{block}
 
 \end{frame}

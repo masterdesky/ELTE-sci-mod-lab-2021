@@ -9,11 +9,11 @@
 /control/verbose 2
 /run/verbose 2
 #
-# neutron 100 MeV to the direction (0.,0.,1.)
+# neutron 10 MeV to the direction (0.,0.,1.)
 # 10000 events
 #
 /gun/particle neutron
-/gun/energy 100 MeV
+/gun/energy 10 MeV
 #
 /run/printProgress 100
 /run/beamOn 1000

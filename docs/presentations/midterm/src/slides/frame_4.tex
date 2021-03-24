@@ -2,25 +2,18 @@
 %	SLIDE 4.
 %----------------------------------------------------------------------------------------
 \begin{frame}
-\frametitle{Project goals}
+\frametitle{Implementation in Geant4 - Neutron beam}
 
-\begin{columns}[onlytextwidth]
-    \column{.47\textwidth}
-        \begin{block}{Simulation}
-        	\begin{itemize}
-        		\item Simulate map of the CMB
-        		\item Explore spectra of generated map
-        		\item Simulate noise from different effects
-        	\end{itemize}
-        \end{block}
-    \column{.47\textwidth}
-        \begin{alertblock}{Analysis of measurements}
-        	\begin{itemize}
-        		\item Reverse engineer power spectrum
-        		\item Filter noise as much as possible
-        		\item Estimate cosmological parameters
-        	\end{itemize}
-        \end{alertblock}
-\end{columns}
+\begin{exampleblock}{}
+	\begin{itemize}
+		\item Neutrons spawns behind the \texttt{NEBULA wall} block and fly towards it with a random position and inclination
+		\item All neutrons are set to have $100$ MeV energy at the start
+		\item A block called \texttt{Neutron E. Counter} counts neutrons passing through that volume and it's only there for debugging purposes
+	\end{itemize}
+\end{exampleblock}
+
+\begin{figure}
+	\includegraphics[width=0.5\textwidth]{images/nebula_3d.png}
+\end{figure}
 
 \end{frame}

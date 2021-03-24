@@ -39,11 +39,11 @@ add_executable(project_nebula project_nebula.cc ${sources} ${headers})
 target_link_libraries(project_nebula ${Geant4_LIBRARIES})
 
 #----------------------------------------------------------------------------
-# Copy all scripts to the build directory, i.e. the directory in which we
-# build `NEBULA`. This is so that we can run the executable directly because it
-# relies on these scripts being in the current working directory.
+# Copy all scripts to the build directory, i.e. the directory in which we build
+# `project_nebula`. This is so that we can run the executable directly because
+# it relies on these scripts being in the current working directory.
 #
-set(PROJ_NEBULA_SCRIPTS
+set(PROJECT_SCRIPTS
   project_nebula.in
   project_nebula.out
   init_vis.mac
@@ -52,7 +52,7 @@ set(PROJ_NEBULA_SCRIPTS
   vis.mac
   )
 
-foreach(_script ${PROJ_NEBULA_SCRIPTS})
+foreach(_script ${PROJECT_SCRIPTS})
   configure_file(
     ${PROJECT_SOURCE_DIR}/${_script}
     ${PROJECT_BINARY_DIR}/${_script}

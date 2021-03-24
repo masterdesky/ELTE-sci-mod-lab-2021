@@ -2,29 +2,32 @@
 %	SLIDE 2.
 %----------------------------------------------------------------------------------------
 \begin{frame}
-\frametitle{Technical details}
+\frametitle{Geant4 simulation toolkit}
 
-\begin{block}{Detector geometry and behaviour}
+\begin{alertblock}{General considerations}
 	\begin{itemize}
-		\item Pure C++ environment using Geant4 headers and libraries
-		\item Hardest part of the whole simulation process
-		\item In this phase the user explicitly defines all parts of the detector and the behaviour of the simulation during different events
-	\end{itemize}
-\end{block}
-
-\begin{block}{Macros}
-	\begin{itemize}
-		\item High level commands to give to a compiled simulation binary
-		\item They define events (eg. particle beam shots) and visualizations
-		\item Easy to construct them and can be reused for other simulations
-	\end{itemize}
-\end{block}
-
-\begin{alertblock}{Automation}
-	\begin{itemize}
-		\item Necessary to make the pipeline fast, easy to use and accurate
-		\item Repetitive commands needs to be written only once
+		\item Real software developing job to use it even at the most basic level
+		\item Very steep learning curve
 	\end{itemize}
 \end{alertblock}
+
+\pause
+
+\begin{block}{Geometry definition}
+	\begin{itemize}
+		\item Every simulation requires a \texttt{World} volume defined
+		\item Further geometries with arbitrary size and shape can be defined inside the \texttt{World} box
+		\item Full definition of a volume requires $3$ classes assigned to it (solid, logical, physical)
+	\end{itemize}
+\end{block}
+
+\pause
+
+\begin{block}{\texttt{particleGun}}
+	\begin{itemize}
+		\item A Geant4 class, responsible for particle generation
+		\item Can be used to tune every properties of particles
+	\end{itemize}
+\end{block}
 
 \end{frame}
