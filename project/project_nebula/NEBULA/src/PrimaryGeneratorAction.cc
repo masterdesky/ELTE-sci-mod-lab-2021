@@ -102,7 +102,7 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
   }
 
   // Starting position of a particle
-  G4double size = 0.6; 
+  G4double size = 0.8; 
   G4double x0 = size * envSizeXY * (G4UniformRand()-0.5);
   G4double y0 = size * envSizeXY * (G4UniformRand()-0.5);
   G4double z0 = 1.0 * envSizeZ;

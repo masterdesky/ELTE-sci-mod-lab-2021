@@ -28,6 +28,7 @@
 /// \brief Implementation of the RunAction class
 
 #include "RunAction.hh"
+#include "Analysis.hh"
 #include "PrimaryGeneratorAction.hh"
 #include "DetectorConstruction.hh"
 // #include "Run.hh"
@@ -81,6 +82,20 @@ void RunAction::BeginOfRunAction(const G4Run*)
   G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
   accumulableManager->Reset();
 
+  // Create analysis manager
+  G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
+  analysisManager->SetVerboseLevel(1);
+
+  // Open an output file
+  analysisManager->OpenFile("output_data.csv");
+
+  // Creation of ntuple
+  analysisManager->CreateNtuple("NEBULAdata", "Deposited Energy");
+  // X = D in CreateNtupleXColumn stands for G4double (I,F,D,S)
+  analysisManager->CreateNtupleDColumn("Edep");
+  //analysisManager->CreateNtupleDColumn("Labs");
+  analysisManager->FinishNtuple();
+
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -100,7 +115,7 @@ void RunAction::EndOfRunAction(const G4Run* run)
   G4double edep2 = fEdep2.GetValue();
   
   G4double rms = edep2 - edep*edep/nofEvents;
-  if (rms > 0.) rms = std::sqrt(rms); else rms = 0.;  
+  if (rms > 0.) rms = std::sqrt(rms); else rms = 0.;
 
   const DetectorConstruction* detectorConstruction
    = static_cast<const DetectorConstruction*>
@@ -124,7 +139,7 @@ void RunAction::EndOfRunAction(const G4Run* run)
     G4double particleEnergy = particleGun->GetParticleEnergy();
     runCondition += G4BestUnit(particleEnergy, "Energy");
   }
-        
+
   // Print
   //  
   if (IsMaster()) {
@@ -148,6 +163,13 @@ void RunAction::EndOfRunAction(const G4Run* run)
      << "------------------------------------------------------------"
      << G4endl
      << G4endl;
+
+  // Get analysis manager
+  G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
+
+  // Write and close the output file
+  analysisManager->Write();
+  analysisManager->CloseFile();
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

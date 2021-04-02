@@ -160,13 +160,16 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
                         false,
                         code,
                         checkOverlaps) ;
+
+      if(rows == 1 && cols == 1) {
+        fScoringVolume = logicCounter;
+      }
     }
   }
 
   //
   //  Scoring module
   //
-  //G4Material* shape1_mat = nist->FindOrBuildMaterial("G4_A-150_TISSUE");
   G4ThreeVector pos_nebula = G4ThreeVector(0, 0, -1*m);
 
   // Conical section shape
@@ -196,7 +199,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 
   // Set `Scoring` as the scoring volume
   //
-  fScoringVolume = logicShape1;
+  //fScoringVolume = logicCounter;
 
   //
   //always return the physical World

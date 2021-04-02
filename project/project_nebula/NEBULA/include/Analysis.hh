@@ -24,50 +24,17 @@
 // ********************************************************************
 //
 //
-/// \file EventAction.cc
-/// \brief Implementation of the EventAction class
+/// \file Analysis.hh
+/// \brief Definition of the Analysis class
 
-#include "EventAction.hh"
-#include "RunAction.hh"
-#include "Analysis.hh"
+#ifndef Analysis_h
+#define Analysis_h 1
 
-#include "G4Event.hh"
-#include "G4RunManager.hh"
+//#include "g4root.hh"
+#include "g4csv.hh"
+//#include "g4xml.hh"
 
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-
-EventAction::EventAction(RunAction* runAction)
-: G4UserEventAction(),
-  fRunAction(runAction),
-  fEdep(0.)
-{} 
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-EventAction::~EventAction()
-{}
-
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-
-void EventAction::BeginOfEventAction(const G4Event*)
-{    
-  fEdep = 0.;
-}
-
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-
-void EventAction::EndOfEventAction(const G4Event*)
-{
-  // accumulate statistics in run action
-  fRunAction->AddEdep(fEdep);
-
-  // Get analysis manager
-  G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
-
-  // Fill ntuple
-  analysisManager->FillNtupleDColumn(0, fEdep);
-  //analysisManager->FillNtupleDColumn(1, fTrackLAbs);
-  analysisManager->AddNtupleRow();
-}
-
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+#endif

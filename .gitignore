@@ -1,3 +1,6 @@
+# Exclude _build directories
+*_build
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
