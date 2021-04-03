@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ROOTDIR="/home/masterdesky/apps/geant4"
+ROOTDIR=${HOME}/apps/geant4
 APPDIR=${ROOTDIR}/apps
 INSTALLDIR=${ROOTDIR}/install
 

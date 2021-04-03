@@ -136,6 +136,8 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   G4double counterSizeX = 12*cm, counterSizeY = 180*cm, counterSizeZ = 12*cm;
   G4Box *solidCounter = new G4Box("Counter",
                                   0.5*counterSizeX, 0.5*counterSizeY, 0.5*counterSizeZ);
+
+  // Store logical volumes of rods in a vector
   int rows = 2, cols = 10;
   for(int i = 0; i < cols; i++) {
 
@@ -147,6 +149,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
       G4LogicalVolume *logicCounter = new G4LogicalVolume(solidCounter,
                                                           counterMat,
                                                           "Counter" + std::to_string(code));
+
       G4ThreeVector posCounter = G4ThreeVector(
                                                 (i-0.5*( (double)cols-1) )*counterSizeX,
                                                 0,
@@ -161,7 +164,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
                         code,
                         checkOverlaps) ;
 
-      if(rows == 1 && cols == 1) {
+      if(j==0 && i==5) {
         fScoringVolume = logicCounter;
       }
     }
@@ -182,9 +185,9 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     shape1_rmina, shape1_rmaxa, shape1_rminb, shape1_rmaxb, shape1_hz,
     shape1_phimin, shape1_phimax);
 
-  G4LogicalVolume* logicShape1 =                         
+  G4LogicalVolume *logicShape1 =                         
     new G4LogicalVolume(solidShape1,         //its solid
-                        world_mat,           //its material
+                        counterMat,           //its material
                         "Scoring");          //its name
 
   new G4PVPlacement(0,                       //no rotation
@@ -199,7 +202,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 
   // Set `Scoring` as the scoring volume
   //
-  //fScoringVolume = logicCounter;
+  //fScoringVolume = logicShape1;
 
   //
   //always return the physical World

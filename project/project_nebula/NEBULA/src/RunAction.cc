@@ -45,8 +45,7 @@
 
 RunAction::RunAction()
 : G4UserRunAction(),
-  fEdep(0.),
-  fEdep2(0.)
+  fEdep(0.)
 { 
   // add new units for dose
   // 
@@ -63,7 +62,6 @@ RunAction::RunAction()
   // Register accumulable to the accumulable manager
   G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
   accumulableManager->RegisterAccumulable(fEdep);
-  accumulableManager->RegisterAccumulable(fEdep2); 
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -112,9 +110,8 @@ void RunAction::EndOfRunAction(const G4Run* run)
   // Compute dose = total energy deposit in a run and its variance
   //
   G4double edep  = fEdep.GetValue();
-  G4double edep2 = fEdep2.GetValue();
   
-  G4double rms = edep2 - edep*edep/nofEvents;
+  G4double rms = edep*edep * (1 - 1/nofEvents);
   if (rms > 0.) rms = std::sqrt(rms); else rms = 0.;
 
   const DetectorConstruction* detectorConstruction
@@ -141,7 +138,7 @@ void RunAction::EndOfRunAction(const G4Run* run)
   }
 
   // Print
-  //  
+  //
   if (IsMaster()) {
     G4cout
      << G4endl
@@ -177,7 +174,6 @@ void RunAction::EndOfRunAction(const G4Run* run)
 void RunAction::AddEdep(G4double edep)
 {
   fEdep  += edep;
-  fEdep2 += edep*edep;
 }
 
 

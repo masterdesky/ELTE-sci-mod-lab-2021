@@ -1,9 +1,10 @@
 #!/bin/bash
 
 # Prerequisites for ROOT, AnaROOT and Geant4
-# sudo apt install libxft-dev libxpm-dev libxmu-dev libxerces-c-dev libxml2-devel
-# sudo apt install automake autoconf libtool libedit
+# sudo apt install libxft-dev libxpm-dev libxmu-dev libxerces-c-dev libxml2-dev
+# sudo apt install automake autoconf libtool libedit-dev
 # sudo apt install libqt4-dev qtbase5-dev
+# sudo apt install git cmake moreutils
 
 export SCRIPTDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 export PIPELINEDIR="${SCRIPTDIR%/*}"
