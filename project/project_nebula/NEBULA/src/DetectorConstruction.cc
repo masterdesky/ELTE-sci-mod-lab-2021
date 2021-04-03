@@ -43,8 +43,7 @@
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 DetectorConstruction::DetectorConstruction()
-: G4VUserDetectorConstruction(),
-  fScoringVolume(0)
+: G4VUserDetectorConstruction()
 { }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -149,6 +148,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
       G4LogicalVolume *logicCounter = new G4LogicalVolume(solidCounter,
                                                           counterMat,
                                                           "Counter" + std::to_string(code));
+      rod_names.push_back("Counter" + std::to_string(code));
 
       G4ThreeVector posCounter = G4ThreeVector(
                                                 (i-0.5*( (double)cols-1) )*counterSizeX,
@@ -163,10 +163,6 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
                         false,
                         code,
                         checkOverlaps) ;
-
-      if(j==0 && i==5) {
-        fScoringVolume = logicCounter;
-      }
     }
   }
 

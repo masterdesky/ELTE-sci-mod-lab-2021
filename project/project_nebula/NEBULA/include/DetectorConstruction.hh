@@ -45,11 +45,11 @@ class DetectorConstruction : public G4VUserDetectorConstruction
     virtual ~DetectorConstruction();
 
     virtual G4VPhysicalVolume* Construct();
-    
-    G4LogicalVolume* GetScoringVolume() const { return fScoringVolume; }
+
+    std::vector<std::string> get_rod_names() const { return rod_names; }
 
   protected:
-    G4LogicalVolume*  fScoringVolume;
+    std::vector<std::string> rod_names;
 };
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

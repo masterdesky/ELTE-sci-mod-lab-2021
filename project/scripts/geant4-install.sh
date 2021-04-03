@@ -84,8 +84,15 @@ then
 	sed -i  '/^GEANT4INSTALL/ { s|$|\"'"${GEANT4INSTALL}"'\"| }' ${PROJDIR}/project-install.sh
 	chmod +x ${PROJDIR}/project-install.sh
 
+	# Add Geant4 install path to project run script
+	cp ${SCRIPTDIR}/project-run.sh ${PROJDIR}/project-run.sh
+	sed -i  '/^PROJNAME/ { s|$|\"'"${PROJNAME}"'\"| }' ${PROJDIR}/project-run.sh
+	sed -i  '/^PROJDIR/ { s|$|\"'"${PROJDIR}"'\"| }' ${PROJDIR}/project-run.sh
+	sed -i  '/^GEANT4INSTALL/ { s|$|\"'"${GEANT4INSTALL}"'\"| }' ${PROJDIR}/project-run.sh
+	chmod +x ${PROJDIR}/project-run.sh
+
 	echo
-	echo "Generated install script for NEBULA project!"
+	echo "Generated install and run script for NEBULA project!"
 	echo
 fi
 

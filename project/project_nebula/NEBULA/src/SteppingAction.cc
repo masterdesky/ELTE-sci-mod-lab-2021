@@ -35,6 +35,7 @@
 #include "G4Event.hh"
 #include "G4RunManager.hh"
 #include "G4LogicalVolume.hh"
+#include "G4LogicalVolumeStore.hh"
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
@@ -53,12 +54,10 @@ SteppingAction::~SteppingAction()
 
 void SteppingAction::UserSteppingAction(const G4Step* step)
 {
-  if (!fScoringVolume) { 
-    const DetectorConstruction* detectorConstruction
+  const DetectorConstruction* detectorConstruction
       = static_cast<const DetectorConstruction*>
         (G4RunManager::GetRunManager()->GetUserDetectorConstruction());
-    fScoringVolume = detectorConstruction->GetScoringVolume();   
-  }
+  std::vector<std::string> rod_names = detectorConstruction->get_rod_names();
 
   // get volume of the current step
   G4LogicalVolume* volume 
@@ -66,7 +65,8 @@ void SteppingAction::UserSteppingAction(const G4Step* step)
       ->GetVolume()->GetLogicalVolume();
       
   // check if we are in scoring volume
-  if (volume != fScoringVolume) return;
+  std::string current_name = volume->GetName()
+  if (!(std::find(rod_names.begin(), rod_names.end(), current_name) != rod_names.end())) return;
 
   // collect energy deposited in this step
   G4double edepStep = step->GetTotalEnergyDeposit();
