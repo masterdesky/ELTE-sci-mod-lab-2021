@@ -30,8 +30,6 @@
 #include "RunAction.hh"
 #include "Analysis.hh"
 #include "PrimaryGeneratorAction.hh"
-#include "DetectorConstruction.hh"
-// #include "Run.hh"
 
 #include "G4RunManager.hh"
 #include "G4Run.hh"
@@ -45,12 +43,13 @@
 
 RunAction::RunAction()
 : G4UserRunAction(),
-  fEdep(0.)
-{ 
-
+fEdep(20, 0.)
+{
   // Register accumulable to the accumulable manager
   G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
-  accumulableManager->RegisterAccumulable(fEdep);
+  for(long unsigned int i = 0; i < fEdep.size(); i++) {
+    accumulableManager->RegisterAccumulable(fEdep[i]);
+  }
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -61,7 +60,7 @@ RunAction::~RunAction()
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 void RunAction::BeginOfRunAction(const G4Run*)
-{ 
+{
   // inform the runManager to save random number seed
   G4RunManager::GetRunManager()->SetRandomNumberStore(false);
 
@@ -74,15 +73,15 @@ void RunAction::BeginOfRunAction(const G4Run*)
   analysisManager->SetVerboseLevel(1);
 
   // Open an output file
-  analysisManager->OpenFile("output_data.csv");
+  analysisManager->OpenFile("NEBULA");
 
   // Creation of ntuple
-  analysisManager->CreateNtuple("NEBULAdata", "Deposited Energy");
+  analysisManager->CreateNtuple("RodData", "Deposited Energy");
   // X = D in CreateNtupleXColumn stands for G4double (I,F,D,S)
-  analysisManager->CreateNtupleDColumn("Edep");
-  //analysisManager->CreateNtupleDColumn("Labs");
+  for(long unsigned int i = 0; i < fEdep.size(); i++) {
+    analysisManager->CreateNtupleDColumn("Edep" + std::to_string(i));
+  }
   analysisManager->FinishNtuple();
-
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -95,14 +94,6 @@ void RunAction::EndOfRunAction(const G4Run* run)
   // Merge accumulables 
   G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
   accumulableManager->Merge();
-
-  // Get total energy deposit in a run
-  //
-  //G4double edep = fEdep.GetValue();
-
-  const DetectorConstruction* detectorConstruction
-   = static_cast<const DetectorConstruction*>
-     (G4RunManager::GetRunManager()->GetUserDetectorConstruction());
 
   // Run conditions
   //  note: There is no primary generator action object for "master"
@@ -129,17 +120,17 @@ void RunAction::EndOfRunAction(const G4Run* run)
   }
   else {
     G4cout
-     << G4endl
-     << "--------------------End of Local Run------------------------";
+      << G4endl
+      << "--------------------End of Local Run------------------------";
   }
   
   G4cout
-     << G4endl
-     << " The run consists of " << nofEvents << " "<< runCondition
-     << G4endl
-     << "------------------------------------------------------------"
-     << G4endl
-     << G4endl;
+    << G4endl
+    << " The run consists of " << nofEvents << " "<< runCondition
+    << G4endl
+    << "------------------------------------------------------------"
+    << G4endl
+    << G4endl;
 
   // Get analysis manager
   G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
@@ -151,11 +142,10 @@ void RunAction::EndOfRunAction(const G4Run* run)
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void RunAction::AddEdep(G4double edep)
+void RunAction::AddEdep(int idx, G4double edep)
 {
-  fEdep  += edep;
+  fEdep[idx] += edep;
 }
-
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 

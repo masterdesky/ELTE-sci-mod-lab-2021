@@ -32,6 +32,7 @@
 
 #include "G4UserEventAction.hh"
 #include "globals.hh"
+#include <vector>
 
 class RunAction;
 
@@ -47,11 +48,15 @@ class EventAction : public G4UserEventAction
     virtual void BeginOfEventAction(const G4Event* event);
     virtual void EndOfEventAction(const G4Event* event);
 
-    void AddEdep(G4double edep) { fEdep += edep; }
+    void AddEdep(int idx, G4double edep) {
+      fIdx = idx;
+      fEdep[idx] += edep;
+    }
 
   private:
     RunAction* fRunAction;
-    G4double     fEdep;
+    int fIdx;
+    std::vector<G4double> fEdep;
 };
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

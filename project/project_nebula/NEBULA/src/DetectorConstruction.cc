@@ -167,40 +167,6 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   }
 
   //
-  //  Scoring module
-  //
-  G4ThreeVector pos_nebula = G4ThreeVector(0, 0, -1*m);
-
-  // Conical section shape
-  G4double shape1_rmina =  0.*cm, shape1_rmaxa = 0.9*m;
-  G4double shape1_rminb =  0.*cm, shape1_rmaxb = 0.9*m;
-  G4double shape1_hz = 0.2*m;
-  G4double shape1_phimin = 0.*deg, shape1_phimax = 360.*deg;
-  G4Cons* solidShape1 =    
-    new G4Cons("Scoring", 
-    shape1_rmina, shape1_rmaxa, shape1_rminb, shape1_rmaxb, shape1_hz,
-    shape1_phimin, shape1_phimax);
-
-  G4LogicalVolume *logicShape1 =                         
-    new G4LogicalVolume(solidShape1,         //its solid
-                        counterMat,           //its material
-                        "Scoring");          //its name
-
-  new G4PVPlacement(0,                       //no rotation
-                    pos_nebula,              //at position
-                    logicShape1,             //its logical volume
-                    "Scoring",               //its name
-                    logicEnv,                //its mother  volume
-                    false,                   //no boolean operation
-                    0,                       //copy number
-                    checkOverlaps);          //overlaps checking
-
-
-  // Set `Scoring` as the scoring volume
-  //
-  //fScoringVolume = logicShape1;
-
-  //
   //always return the physical World
   //
   return physWorld;

@@ -41,8 +41,7 @@
 
 SteppingAction::SteppingAction(EventAction* eventAction)
 : G4UserSteppingAction(),
-  fEventAction(eventAction),
-  fScoringVolume(0)
+  fEventAction(eventAction)
 {}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -63,14 +62,15 @@ void SteppingAction::UserSteppingAction(const G4Step* step)
   G4LogicalVolume* volume 
     = step->GetPreStepPoint()->GetTouchableHandle()
       ->GetVolume()->GetLogicalVolume();
-      
+
   // check if we are in scoring volume
-  std::string current_name = volume->GetName()
+  std::string current_name = volume->GetName();
   if (!(std::find(rod_names.begin(), rod_names.end(), current_name) != rod_names.end())) return;
+  int idx = std::stoi(current_name.substr(7));
 
   // collect energy deposited in this step
   G4double edepStep = step->GetTotalEnergyDeposit();
-  fEventAction->AddEdep(edepStep);
+  fEventAction->AddEdep(idx, edepStep);
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

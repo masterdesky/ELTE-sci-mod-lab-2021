@@ -14,6 +14,6 @@ fi
 
 cd ${PROJDIR}/NEBULA_build
 
-${PROJDIR}/NEBULA_build/${PROJNAME} ${PROJDIR}/NEBULA_build/run1.mac
+${PROJDIR}/NEBULA_build/${PROJNAME} #${PROJDIR}/NEBULA_build/run1.mac
 
 cd ${PROJDIR}
