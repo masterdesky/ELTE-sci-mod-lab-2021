@@ -99,8 +99,8 @@
 /vis/set/textColour white
 /vis/scene/add/text 0 1.7 1.2 m 18 4 4 NEBULA wall
 # Attach text to one edge of neutron energy counter, with a small, fixed offset
-/vis/set/textColour 1 0.647 0
-/vis/scene/add/text 0 -1.5 -1.5 m 18 4 4 Neutron E. Counter
+#/vis/set/textColour 1 0.647 0
+#/vis/scene/add/text 0 -1.5 -1.5 m 18 4 4 Neutron E. Counter
 #
 # Make the "World" box invisible
 /vis/geometry/set/visibility World 0 false
@@ -108,7 +108,7 @@
 # "Envelope" is transparent green to represent border
 /vis/geometry/set/colour Envelope 0 0 1 0 0.05
 # "Scoring" is transparent orange
-/vis/geometry/set/colour Scoring 0 1 0.647 0 0.5
+#/vis/geometry/set/colour Scoring 0 1 0.647 0 0.5
 # To get nice view
 /vis/viewer/set/style surface
 /vis/viewer/set/hiddenMarker true

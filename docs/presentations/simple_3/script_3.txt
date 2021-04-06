@@ -1,0 +1,9 @@
+* title slide *
+Hello everyone! Now it is my turn to talk about my project work, revolving around the study of the NEBULA neutron detector, supervised by Ákos Horváth.
+
+* slide 1 *
+First I would like summarize all my achievements made so far and what exactly I did in the last two weeks, just in a nutshell. I've told you in the last, midterm presentation, that I've successfully finished the implementation of the NEBULA detector in Geant4, the software toolkit I'm using for this project. I've also made the first test runs with randomly generated neutron beams and showed you some visualization using the OpeanGL+Qt API of Geant4.
+
+In the previous two weeks I've finished basically all of my 
+
+That's all I have for you today, so thank you for your attention!

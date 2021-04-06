@@ -1,6 +1,12 @@
 # Exclude _build directories
 *_build
 
+# Exlude jupyter trash
+.ipynb_checkpoints/
+
+# Exclude outputs
+out/
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof

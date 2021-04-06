@@ -1,0 +1,22 @@
+%----------------------------------------------------------------------------------------
+%	SLIDE 2./2
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Making NEBULA rods susceptible for neutrons}
+
+\begin{block}{\texttt{G4LogicalVolume} : Initialized in \texttt{G4DetectorConstruction}}
+	\begin{itemize}
+		\item Geant4's \texttt{G4SteppingAction} can use this type of volume to identify the mother volume of the particle's position in the current step
+		\item This type of volume contains the methods used for particle tracking
+	\end{itemize}
+\end{block}
+
+\begin{alertblock}{\texttt{G4Accumulable} : Initialized in \texttt{G4RunAction}}
+	\begin{itemize}
+		\item Stores "accumulable" quantities (eg. energies) during the whole simulation
+		\item The \texttt{G4AnalysisManager} reads values from this type of object
+	\end{itemize}
+\end{alertblock}
+
+
+\end{frame}
