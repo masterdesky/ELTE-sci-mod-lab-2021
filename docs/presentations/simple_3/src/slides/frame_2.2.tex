@@ -4,6 +4,12 @@
 \begin{frame}
 \frametitle{Making NEBULA rods susceptible for neutrons}
 
+\begin{block}{\texttt{G4SteppingAction}}
+	\begin{itemize}
+		\item Handles the individual tracking of each particle in the simulation
+	\end{itemize}
+\end{block}
+
 \begin{block}{\texttt{G4LogicalVolume} : Initialized in \texttt{G4DetectorConstruction}}
 	\begin{itemize}
 		\item Geant4's \texttt{G4SteppingAction} can use this type of volume to identify the mother volume of the particle's position in the current step
