@@ -33,7 +33,7 @@
 #include "G4RunManagerFactory.hh"
 
 #include "G4UImanager.hh"
-#include "QBBC.hh"
+#include "G4PhysListFactory.hh"
 
 #include "G4VisExecutive.hh"
 #include "G4UIExecutive.hh"
@@ -47,7 +47,7 @@ int main(int argc,char** argv)
   // Detect interactive mode (if no arguments) and define UI session
   //
   G4UIExecutive* ui = 0;
-  if ( argc == 1 ) {
+  if ( argc == 2 ) {
     ui = new G4UIExecutive(argc, argv);
   }
 
@@ -64,8 +64,18 @@ int main(int argc,char** argv)
   // Detector construction
   runManager->SetUserInitialization(new DetectorConstruction());
 
+  std::vector<std::string> physics = {
+        "QBBC",
+        "QGSP_BERT_HP",
+        "QGSP_BIC_HP",
+        "QGSP_INCLXX",
+        "QGSP_INCLXX_HP"
+  };
+  
   // Physics list
-  G4VModularPhysicsList* physicsList = new QBBC;
+  G4PhysListFactory *physListFactory = new G4PhysListFactory();
+  G4VUserPhysicsList *physicsList = 
+              physListFactory->GetReferencePhysList(argv[1]);
   physicsList->SetVerboseLevel(1);
   runManager->SetUserInitialization(physicsList);
     
@@ -84,13 +94,13 @@ int main(int argc,char** argv)
 
   // Process macro or start UI session
   //
-  if ( ! ui ) { 
+  if ( ! ui ) {
     // batch mode
     G4String command = "/control/execute ";
-    G4String fileName = argv[1];
+    G4String fileName = argv[2];
     UImanager->ApplyCommand(command+fileName);
   }
-  else { 
+  else {
     // interactive mode
     UImanager->ApplyCommand("/control/execute init_vis.mac");
     ui->SessionStart();

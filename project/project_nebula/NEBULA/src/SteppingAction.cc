@@ -33,6 +33,7 @@
 
 #include "G4Step.hh"
 #include "G4Event.hh"
+#include "Analysis.hh"
 #include "G4RunManager.hh"
 #include "G4LogicalVolume.hh"
 #include "G4LogicalVolumeStore.hh"
@@ -63,14 +64,36 @@ void SteppingAction::UserSteppingAction(const G4Step* step)
     = step->GetPreStepPoint()->GetTouchableHandle()
       ->GetVolume()->GetLogicalVolume();
 
-  // check if we are in scoring volume
-  std::string current_name = volume->GetName();
-  if (!(std::find(rod_names.begin(), rod_names.end(), current_name) != rod_names.end())) return;
-  int idx = std::stoi(current_name.substr(7));
+  // X,y,Z coordinates
+  G4ThreeVector XYZ = step->GetTrack()->GetPosition();
+  G4double X = XYZ[0];
+  G4double Y = XYZ[1];
+  G4double Z = XYZ[2];
 
-  // collect energy deposited in this step
+  // 1. column: energy deposited in this step
   G4double edepStep = step->GetTotalEnergyDeposit();
-  fEventAction->AddEdep(idx, edepStep);
+
+  // 2. column: name of the particle
+  G4String partStep = step->GetTrack()->GetParticleDefinition()->GetParticleName();
+
+  // 3. column: name of the volume the particle currently in
+  G4String volumeStep = volume->GetName();
+
+  // 4. column: name of the process
+  G4String procStep = step->GetPostStepPoint()->GetProcessDefinedStep()->GetProcessName();
+
+  // At the end of every step, get analysis manager and fill it with values
+  G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
+
+  // Fill ntuple
+  analysisManager->FillNtupleDColumn(0, X);
+  analysisManager->FillNtupleDColumn(1, Y);
+  analysisManager->FillNtupleDColumn(2, Z);
+  analysisManager->FillNtupleDColumn(3, edepStep);
+  analysisManager->FillNtupleSColumn(4, partStep);
+  analysisManager->FillNtupleSColumn(5, volumeStep);
+  analysisManager->FillNtupleSColumn(6, procStep);
+  analysisManager->AddNtupleRow();
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

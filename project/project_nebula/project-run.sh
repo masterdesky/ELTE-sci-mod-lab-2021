@@ -14,6 +14,10 @@ fi
 
 cd ${PROJDIR}/NEBULA_build
 
-${PROJDIR}/NEBULA_build/${PROJNAME} ${PROJDIR}/NEBULA_build/run1.mac
-
+PHYSICS_LIST=('QBBC' 'QGSP_BERT_HP' 'QGSP_BIC_HP' 'QGSP_INCLXX' 'QGSP_INCLXX_HP')
+for PHYS in "${PHYSICS_LIST[@]}"
+do
+  ${PROJDIR}/NEBULA_build/${PROJNAME} ${PHYS} ${PROJDIR}/NEBULA_build/run1.mac
+  cp ${PROJDIR}/NEBULA_build/NEBULA* ${PROJDIR}/data/${PHYS}/
+done
 cd ${PROJDIR}

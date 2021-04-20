@@ -1,0 +1,29 @@
+%----------------------------------------------------------------------------------------
+%	SLIDE 2.
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Particle tracking in Geant4}
+
+\begin{block}{Levels of particle tracking}
+	\begin{itemize}
+		\item Step level: Attributes (position, energy, current volume etc.) at every step of the simulation
+		\item Event level: All particle "events" created by a single particle
+		\item Run level: Set of all events of a full simulation
+	\end{itemize}
+\end{block}
+
+\begin{alertblock}{1. Step level}
+	\begin{itemize}
+		\item Physical processes and the highest resolution of position/momentum/etc. tracking can be achieved here
+		\item Beware: There could be a LOT of steps in a full simulation!
+	\end{itemize}
+\end{alertblock}
+
+\begin{alertblock}{2. Event level}
+	\begin{itemize}
+		\item Can be used to monitor quantities that accumulate over time at every step
+	\end{itemize}
+\end{alertblock}
+
+
+\end{frame}

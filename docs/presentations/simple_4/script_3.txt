@@ -1,0 +1,44 @@
+* title slide *
+Hello everyone! Now it is my turn to talk about my project work, revolving around the study of the NEBULA neutron detector, supervised by Ákos Horváth.
+
+* slide 1 *
+First I would like summarize all my achievements made so far and what exactly I did in the last two weeks, just in a nutshell. I've told you in the last, midterm presentation, that at the beginning of the semester I've first set up the whole development enviroment for Geant4, the software toolkit I'm using for this project. I then learned to use this toolkit at a somewhat basic level, until I was able to successfully implement the focus of my study, the NEBULA detector in Geant4. Later I've also made the first test runs with randomly generated neutron beams and showed you some early visualizations using the OpeanGL+Qt API of Geant4.
+
+In the previous two weeks I've finished basically all of my remaining planned tasks I was intended to do. I gave each detector rods of NEBULA the capability of measuring energies of transiting neutrons individually for a whole simulation, and created the I/O pipeline in Geant4 and then data exploration and data analysis pipeline in the Python 3.9.
+
+* slide 2/1. *
+So the first step was to make the simulated detector rods capable of measuring neutrons during a simulation. Just a very short recap, that's how the NEBULA detector looks like in the simulation. It consists of 20 plastic scintillator rods, arranged in two equal-sized layers as you can see on this figure.
+
+* slide 2/2. *
+As I've emphasized in all of my previous presentations and reports too, nowadays Geant4 is a heavily bloated toolkit with more than 50 years of history behind its back.
+In this enviroment we have numerous options to make a detector volume capable of for example neutron detection. If we think about that, it is equivalent of the capability of measuring the deposited energy from transiting particles - so neutron in this case. - I simply selected one of the possible approaches that Geant4 offers and implemented it in my project. For this approach, only three main basic components are needed, listed on this slide.
+
+1. The first tool we need is the G4SteppingAction, which as it says, handles the particle tracking, and decides what should happen to a particle, based on its current location and attributes.
+
+2. The second tool is actually a mandatory part of the detector construction/shape definition of Geant4. Every solid shape in the simulation have to have a so-called "Logical Volume" assigned to it, which contains the physical and other dynamical properties of that shape or volume. It is also used to identify, which volume contains a specific particle at a specific step.
+
+3. The third and last tool we need is the G4Accumulable object, which - as it name says - stores accumulable quantities during the simulation. It is important, because when eg. we want to save the data obtained during a simulation, the I/O manager (so-called G4AnalysisManager) of Geant4 can handle data stored in this type of variables.
+
+* slide 3 *
+Speaking about the I/O of the simulation, this was the second task I've completed in the last two weeks. Beacuse Geant4 has no buil-in tools for post processing or analysis of the accumulated data, we have to use some third party software this. Fortunately it has however an easy-to-use and versatile I/O tool, this G4AnalysisManager I've just mentioned. This was needed to be wired into the simulation in the correct way.
+
+Using this analysis manager and the tools I've mentioned on the previous slide, I was able to measure the deposited energy of netrons in every detector rod individually and then save the obtained dataset as a csv file for further analysis, for which I've happened to use Python 3.
+
+Every column of the dataset corresponds to a specific rod in the detector, while every row corresponds to a specific neutron. Every entry contains how much energy was deposited by that specific neutron in that specific detector rod.
+
+
+* slide 4/1. *
+I've tested the NEBULA detector for different magnitudes of energies (you can see these values on this slide here). The operating energy range of the NEBULA detector is actually between a 100 and 300 MeV. So this gives us some idea, what energies we should give our simulated neutrons to get any meaningful results.
+
+On this slide you can also see a test run with a 100 MeV neutron beam, containing exactly 100 neutrons. The green lines are neutrons, while the blue lines are other particles, created during the run. These events are rare. When neutrons interact with the detector material here, they usually just emit photons, which are immediately absorbed by the scintillator rods.
+
+* slide 4/2. *
+We can also discuss the distribution of the depostied energy in the detector rods. On the first image, you can see the heatmap of the total depsoited energy in a simulation with 1000 neutrons on 100 MeV. The starting position of the inbound neutrons are sampled from the uniform distribution. Intuitively this should cause this heatmap to be symmetric, but we clearly see, that it is not the case. The reason for this, that even for 1000 neutrons, we have too few events to compensate for the initial randomness.
+
+You may not see the axis labels and ticks on the image below, but it should represent the distribution of the deposited energy values in each rod. On the X axis we can read the deposited energy values by neutrons and on the Y axis we can see occurence of these events. Since 0 energy deposit corresponds to "no detection by the detector", I only visualized here those events, that involved any energy emission. But still, you can see, that most of the events resulted in very small energy deposit.
+
+* slide 1 again *
+At the end just want to tell you a sentence about my further plans. So now, basically most of the project work is done. The NEBULA detector works, the analysis and visualization works. Now we can try to use it to study real physical events. There are numerous pre-defined particle beams, originating from various physical events. I'll concentrate on the study and comparsion of these real events using my finalized simulation pipeline.
+
+
+That's all I have for you today, so thank you for your attention!

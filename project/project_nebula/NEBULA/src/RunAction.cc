@@ -42,15 +42,8 @@
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 RunAction::RunAction()
-: G4UserRunAction(),
-fEdep(20, 0.)
-{
-  // Register accumulable to the accumulable manager
-  G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
-  for(long unsigned int i = 0; i < fEdep.size(); i++) {
-    accumulableManager->RegisterAccumulable(fEdep[i]);
-  }
-}
+: G4UserRunAction()
+{}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
@@ -64,10 +57,6 @@ void RunAction::BeginOfRunAction(const G4Run*)
   // inform the runManager to save random number seed
   G4RunManager::GetRunManager()->SetRandomNumberStore(false);
 
-  // reset accumulables to their initial values
-  G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
-  accumulableManager->Reset();
-
   // Create analysis manager
   G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
   analysisManager->SetVerboseLevel(1);
@@ -78,9 +67,13 @@ void RunAction::BeginOfRunAction(const G4Run*)
   // Creation of ntuple
   analysisManager->CreateNtuple("RodData", "Deposited Energy");
   // X = D in CreateNtupleXColumn stands for G4double (I,F,D,S)
-  for(long unsigned int i = 0; i < fEdep.size(); i++) {
-    analysisManager->CreateNtupleDColumn("Edep" + std::to_string(i));
-  }
+  analysisManager->CreateNtupleDColumn("X");
+  analysisManager->CreateNtupleDColumn("Y");
+  analysisManager->CreateNtupleDColumn("Z");
+  analysisManager->CreateNtupleDColumn("Edep");
+  analysisManager->CreateNtupleSColumn("Part");
+  analysisManager->CreateNtupleSColumn("Vol");
+  analysisManager->CreateNtupleSColumn("Proc");
   analysisManager->FinishNtuple();
 }
 
@@ -90,10 +83,6 @@ void RunAction::EndOfRunAction(const G4Run* run)
 {
   G4int nofEvents = run->GetNumberOfEvent();
   if (nofEvents == 0) return;
-
-  // Merge accumulables 
-  G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
-  accumulableManager->Merge();
 
   // Run conditions
   //  note: There is no primary generator action object for "master"
@@ -126,7 +115,7 @@ void RunAction::EndOfRunAction(const G4Run* run)
   
   G4cout
     << G4endl
-    << " The run consists of " << nofEvents << " "<< runCondition
+    << " The run consists of " << nofEvents << " " << runCondition
     << G4endl
     << "------------------------------------------------------------"
     << G4endl
@@ -138,13 +127,6 @@ void RunAction::EndOfRunAction(const G4Run* run)
   // Write and close the output file
   analysisManager->Write();
   analysisManager->CloseFile();
-}
-
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-
-void RunAction::AddEdep(int idx, G4double edep)
-{
-  fEdep[idx] += edep;
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

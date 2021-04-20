@@ -29,7 +29,6 @@
 
 #include "EventAction.hh"
 #include "RunAction.hh"
-#include "Analysis.hh"
 
 #include "G4Event.hh"
 #include "G4RunManager.hh"
@@ -38,8 +37,7 @@
 
 EventAction::EventAction(RunAction* runAction)
 : G4UserEventAction(),
-  fRunAction(runAction),
-  fEdep(20)
+  fRunAction(runAction)
 {}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -50,25 +48,11 @@ EventAction::~EventAction()
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 void EventAction::BeginOfEventAction(const G4Event*)
-{
-  std::fill(fEdep.begin(), fEdep.end(), 0);
-}
+{}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 void EventAction::EndOfEventAction(const G4Event*)
-{
-  // accumulate statistics in run action
-  fRunAction->AddEdep(fIdx, fEdep[fIdx]);
-
-  // Get analysis manager
-  G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
-
-  // Fill ntuple
-  for(long unsigned int i = 0; i < fEdep.size(); i++) {
-    analysisManager->FillNtupleDColumn(i, fEdep[i]);
-  }
-  analysisManager->AddNtupleRow();
-}
+{}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
