@@ -17,18 +17,19 @@ Geant4 serves just as a so-called "software engine" for particle simulations and
 * slide 3 *
 Let me give you today again a short and sketchy outline how simulations are structured in Geant4. Any normal simulation usually consist of these 4 components I've listed on this slide.
 
+The heart of a Geant4 simulation is the detector or geometry construction. Here the physical world, like the detector, targets, other blocks are explicitly defined. The simulation will be happen in the environment defined here.
 
+The second most important thing is the particle generation. Usually we want to create a simulation, where we shot a particle beam onto a detector to see what happens. We can understand, that the generation of the particle beam is an essential part of this.
 
+These and any further components in a Geant4 app are glued together with a main function, or normally a core loop inside the main function. For example the core loop in my application generates and simulates a particle in every iteration and writes the accumulated data into a file during runtime.
 
 * slide 4 *
+Now lets see, how the structure of the NEBULA detector looked like in my project. So, the real NEBULA detector currently conists of two sections of 2 times 30 detector rods. These rods are filled with a plastic scintillator material called BC-408. In this setup the incoming neutrons are close to parallel with each other, when they hit the detector, so particle trajectories have only a very small inclination.
 
+Because of this, it is simply unnecessary to simulate the NEBULA detector at its whole length, but only a smaller segment of it. At one side of the detector, the very same thing would happen as in the middle or at the other side. In my case I've selected a smaller region of 2 by 10 rods, what you can also see in this image here.
 
 
 * slide 5 *
-
-
-
-* slide 6 *
 During this semester I have examined three topic or three questions regarding the NEBULA detector. These all could be started obviously after I fully finished my simulation software in Geant4. Only after that could I start any simulation run and obtain relevant data from it to analyse it afterwards.
 
 About these three topics:
@@ -37,6 +38,14 @@ About these three topics:
 - And third, I've measured the neutron detection accuracy of NEBULA on various neutron energies throughout its whole operation range.
 
 And of course, all of these mentioned topics were studied for numerous different, so-called "physics list". These "physics lists" in Geant4 are basically a collection of physical processes. Or to be more precise, a specific "physics list" is a unique physical model of the particle-matter interaction. Different models obviously give different results, when we're describing a physical process or group of processes. That's why it's important to explore the difference between the available models and decide, which one suits us more in our specific simulation. That's why I also wanted to have at least a very basic outlook on the difference between these predefined models in Geant4, that's why I've used more of them at once and compared them at basically every step throughout the whole analysis.
+
+
+* slide 6.1 *
+
+
+
+* slide 6.2 *
+
 
 
 * slide 7/1 *
