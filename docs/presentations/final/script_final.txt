@@ -1,0 +1,66 @@
+* title slide *
+Hello everyone! Today on this last occasion I'll give you a short, but complete summary of my project that focused on the study of the NEBULA neutron detector and which was supervised by Ákos Horváth.
+
+* slide 1 *
+
+
+
+* silde 2 *
+The software I've been using throughout the semester is called Geant4, which is the fourth iteration of the GEANT software toolkit. The first version of this toolkit dates back 1974, while Geant4 what I'm using was released 23 years ago, in 1998.
+
+This simulation software can be used to simulate a variety of particle-matter interactions. It really do offer countless of options and setting to play around with and could be suitable for probably any problems in particle- and nuclear physics.
+
+But for the same reason, using it even on the basic level is challanging at first. Also learning to use it on an expert level would probably took months or years of work with it.
+Geant4 serves just as a so-called "software engine" for particle simulations and the users should basically develop their own simulation application on top of it. So without sugarcoating it, using Geant4 is an actual software developing job.
+
+
+* slide 3 *
+Let me give you today again a short and sketchy outline how simulations are structured in Geant4. Any normal simulation usually consist of these 4 components I've listed on this slide.
+
+
+
+
+* slide 4 *
+
+
+
+* slide 5 *
+
+
+
+* slide 6 *
+During this semester I have examined three topic or three questions regarding the NEBULA detector. These all could be started obviously after I fully finished my simulation software in Geant4. Only after that could I start any simulation run and obtain relevant data from it to analyse it afterwards.
+
+About these three topics:
+- First I've examined the distribution of the deposited energy in the detector rods by their place of absorbation and by their magnitude
+- Second I've explored what type of particles and physical processes take part in the simulation.
+- And third, I've measured the neutron detection accuracy of NEBULA on various neutron energies throughout its whole operation range.
+
+And of course, all of these mentioned topics were studied for numerous different, so-called "physics list". These "physics lists" in Geant4 are basically a collection of physical processes. Or to be more precise, a specific "physics list" is a unique physical model of the particle-matter interaction. Different models obviously give different results, when we're describing a physical process or group of processes. That's why it's important to explore the difference between the available models and decide, which one suits us more in our specific simulation. That's why I also wanted to have at least a very basic outlook on the difference between these predefined models in Geant4, that's why I've used more of them at once and compared them at basically every step throughout the whole analysis.
+
+
+* slide 7/1 *
+
+
+
+* slide 7/2 *
+
+
+
+* slide 7/3 *
+
+
+
+* slide 7/4 *
+
+
+
+* slide 8/1 *
+
+
+
+* slide 8/2 *
+
+
+
+* slide 9 *
