@@ -2,74 +2,111 @@
 Hello everyone! Today on this last occasion I'll give you a short, but complete summary of my project that focused on the study of the NEBULA neutron detector and which was supervised by Ákos Horváth.
 
 * slide 1 *
-
+Today I'll give you a summary of these milestones that I've achieved during this semester. There are a lots of things here on this checklist, so lets get started!
 
 
 * silde 2 *
-The software I've been using throughout the semester is called Geant4, which is the fourth iteration of the GEANT software toolkit. The first version of this toolkit dates back 1974, while Geant4 what I'm using was released 23 years ago, in 1998.
+First I want to say some word about the software I've been using throughout the semester. It is called as Geant4, which is the fourth iteration of the GEANT software toolkit. The first version of this toolkit dates back to 1974, while Geant4 what I'm using was released 23 years ago, in 1998.
 
 This simulation software can be used to simulate a variety of particle-matter interactions. It really do offer countless of options and setting to play around with and could be suitable for probably any problems in particle- and nuclear physics.
 
-But for the same reason, using it even on the basic level is challanging at first. Also learning to use it on an expert level would probably took months or years of work with it.
-Geant4 serves just as a so-called "software engine" for particle simulations and the users should basically develop their own simulation application on top of it. So without sugarcoating it, using Geant4 is an actual software developing job.
+But for the same reason, using it even on the basic level is challenging. Also learning to use it on an expert level would probably took months or years of work with it.
+The reason for this is that Geant4 serves just as a so-called "software engine" for particle simulations and the users should basically develop their own simulation application on top of it. So without sugarcoating it, using Geant4 is an actual software developing job.
 
 
 * slide 3 *
-Let me give you today again a short and sketchy outline how simulations are structured in Geant4. Any normal simulation usually consist of these 4 components I've listed on this slide.
+Let me still give you a very short and sketchy outline how simulations are structured in Geant4. Any normal simulation usually consist of these 4 components I've listed on this slide.
 
-The heart of a Geant4 simulation is the detector or geometry construction. Here the physical world, like the detector, targets, other blocks are explicitly defined. The simulation will be happen in the environment defined here.
+The heart of a Geant4 simulation is the detector or geometry construction. Here the physical world, like the detector, targets, any other blocks are explicitly defined. The simulation will be happen in the physical environment defined here.
 
-The second most important thing is the particle generation. Usually we want to create a simulation, where we shot a particle beam onto a detector to see what happens. We can understand, that the generation of the particle beam is an essential part of this.
+The second most important thing is the particle generation. Usually we want to create a simulation, where we shot a particle beam onto a detector and then watch what happens. We can understand, that the generation of the particle beam is an essential part of this, obviously.
 
-These and any further components in a Geant4 app are glued together with a main function, or normally a core loop inside the main function. For example the core loop in my application generates and simulates a particle in every iteration and writes the accumulated data into a file during runtime.
+Also if we want to analyze the data generated during a simulation, we have to save it to a file for later use. That's why we need to create some data I/O component that does this for us.
+
+These and any further components in a Geant4 application are glued together with a main function, or normally a core loop inside the main function. For example the core loop in my application generates and simulates a particle in every single iteration and writes the accumulated data into a file during runtime.
+
 
 * slide 4 *
-Now lets see, how the structure of the NEBULA detector looked like in my project. So, the real NEBULA detector currently conists of two sections of 2 times 30 detector rods. These rods are filled with a plastic scintillator material called BC-408. In this setup the incoming neutrons are close to parallel with each other, when they hit the detector, so particle trajectories have only a very small inclination.
+Now lets see, how the structure of the NEBULA detector looked like in my project (this is the detector construction part). So, the real NEBULA detector currently consists of two parallel sections, where each section is a 2 layer block of 2 times 30 detector rods. These rods are filled with a plastic scintillator material called BC-408. In this setup the incoming neutrons are close to parallel with each other, when they hit the detector, so particle trajectories have only a very small inclination on impact.
 
-Because of this, it is simply unnecessary to simulate the NEBULA detector at its whole length, but only a smaller segment of it. At one side of the detector, the very same thing would happen as in the middle or at the other side. In my case I've selected a smaller region of 2 by 10 rods, what you can also see in this image here.
+At one side of the detector, the very same thing would happen as in the middle or at the other side. Because of this, it is simply unnecessary to simulate the NEBULA detector at its whole length, but we only need a smaller segment of it. In my case I've selected a smaller region of 2 by 10 rods, what you can also see in this image here.
 
 
 * slide 5 *
-During this semester I have examined three topic or three questions regarding the NEBULA detector. These all could be started obviously after I fully finished my simulation software in Geant4. Only after that could I start any simulation run and obtain relevant data from it to analyse it afterwards.
+During this semester I have examined three topics or three questions regarding the NEBULA detector. These all could be started only after I fully finished my simulation software in Geant4. Only after that could I start any simulation run and obtain relevant data from it to analyze it afterwards.
 
 About these three topics:
-- First I've examined the distribution of the deposited energy in the detector rods by their place of absorbation and by their magnitude
+- First I've examined the distribution of the deposited energy in the detector rods by their place of absorption and by their magnitude
 - Second I've explored what type of particles and physical processes take part in the simulation.
 - And third, I've measured the neutron detection accuracy of NEBULA on various neutron energies throughout its whole operation range.
 
-And of course, all of these mentioned topics were studied for numerous different, so-called "physics list". These "physics lists" in Geant4 are basically a collection of physical processes. Or to be more precise, a specific "physics list" is a unique physical model of the particle-matter interaction. Different models obviously give different results, when we're describing a physical process or group of processes. That's why it's important to explore the difference between the available models and decide, which one suits us more in our specific simulation. That's why I also wanted to have at least a very basic outlook on the difference between these predefined models in Geant4, that's why I've used more of them at once and compared them at basically every step throughout the whole analysis.
+And of course, all of these mentioned topics were studied for numerous different, so-called "physics lists". In Geant4 these are basically a collection of physical processes. Or to be more precise, a specific "physics list" is a unique physical model of the particle-matter interaction. Different models obviously give different results, when we're describing a physical process or group of processes. That's why it's important to explore the difference between the available models and decide, which one suits us more in our specific simulation. That's why I also wanted to have at least a very basic overlook on the difference between these predefined models in Geant4 and that's why I've used more of them at once and compared them at basically every step throughout the whole analysis.
 
 
 * slide 6.1 *
+First let us see the energy distribution. On this figure I've plotted the total deposited energy per detector rods. This should be the top view of the NEBULA detector, where each rectangle with this "CounterX" label corresponds to a specific detector rod. The lighter a rectangle is shaded, the more energy was deposited in that given rod.
 
+Since I've generated particles during the run with random starting coordinates and with some very small random inclinations, the energy distribution does not look symmetric.
+
+This distribution was slightly different for each physics lists. But since the RNG used in my simulation had a set seed, this difference can be attributed mostly to the difference of physics lists themselves and not to the random initial conditions.
+
+We can also observe, that if we change the initial energy of the neutrons in the particle beam, the distribution also shifts along the beam direction. At higher energies it slips out on the other side of the detector, while at lower energies it moves to the other direction.
 
 
 * slide 6.2 *
+This figure here shows the kernel density estimation of the deposited energy values per simulation steps. At every simulation step, some physical process happen, a particle loses some energy, and this is the distribution of these energy values.
 
+I've worked with 5 different physics lists during the project, we can see a comparsion between them here. 4 out of 5 shows a peak in the energy distribution around 2.7 MeV, while one of them exhibits some completely different characteristics.
+
+The blue color here denotes physics lists that contain this so-called NeutronHP package. This is a submodule in Geant4, that provides us very high precision calculations for low energy neutrons. It's interesting to note, that two of the physics lists that contain this package are overlapping with each other, while the third one is just completely different.
 
 
 * slide 7/1 *
+The second topic or two topics I've discussed was the exploration of the processes and particles in the simulation. I have two pair of figures coming up here:
+- Two figures shows the number of simulation steps, where Geant4 calculated the simulation step either for a specific physical process or a specific type of particle.
+- The other two figures shows the proportion of the total deposited energy that can be attributed to either a specific physical process or particle.
 
+So in this first figure we can see the number of physical processes. There are a lot of different process here. Ionization of hadrons are the most frequent event and the elastic collision of hadrons comes in the second place.
 
 
 * slide 7/2 *
-
+On this figure we can see the contribution of these processes to the total energy deposit. Here we can see, that different ionization effects dominates the energy deposition. The most dominant ones are the hadron ionization, the ion ionization and the electron ionization.
 
 
 * slide 7/3 *
-
+On this third figure we can see the different particles that participated in the simulation. I've written it on this slide too, that this figure doesn't or just vaguely represent the actual number of particles that were created in this simulation. This figure just shows, how many simulation steps was made by that specific particle. More stable and more common particles (like neutrons, protons, electrons and photons) has trivially higher rates here.
 
 
 * slide 7/4 *
+And then on this fourth figure we can see the contribution of specific particle types to the total energy deposit. It should be noted, that this is a logarithmic scale, and it shows, that almost all energy deposit can be attributed to protons. This coincides with the results we got on the same figure but with processes displayed. There we could see, that hadron (and thus more specifically proton) ionization was the most dominant process.
 
+
+
+All of these figures were actually very similar to other physics lists. Of course there was some difference between the list of physical processes itself, but the trends I've mentioned, was generally the same.
 
 
 * slide 8/1 *
+The last topic what I've explored was the detection accuracy of the NEBULA detector. I've worked on this in the last two weeks.
 
+Here I've made simulations for lots of different neutron energies, starting at 40 MeV and stopping at 360 MeV, moving at increments of 5 MeV. What happens inside the detector is, that a particle releases some energy and the scintillator rods detect it and measure it. So we interpret detection of a particle as energy deposition inside the detector rods.
+
+We sadly can't track individual particles, or can't differentiate two particles with the same type from each other easily in Geant4. The only thing I could do is to count the energy deposition events inside the detector rods and compare it to the total number of events. And that's what we see on this 5 figures, where each figure corresponds to a different physics lists. Of course it seems so that it's more of an indication that at higher energies, particles deposit energies with a higher probability. But this is basically correlates with the detection accuracy.
+
+There is an interesting anomaly exactly at 100 MeV on 4 out of 5 figures, I don't actually know what is this. The only exception for this is the QGSP_BIC_HP physics lists. This was also the one, that showed different characteristics in the kernel density estimation of the energy deposition.
+
+The graphs also have a plateau around 300 MeV, or some accuracies event starts to decrease. 
+
+These two interesting values coincides with the nominal operation range of the NEBULA detector, which is 100 - 300 MeV.
 
 
 * slide 8/2 *
-
+The same figure can be made exclusively for neutrons too. Here physics lists containing the high precision NeutronHP package indicates a 100% of neutron detection rate which seems pretty good at first. But looking at the other two curves and noticing that they seems much more natural and similar to the all-particle detection rate, it may suggest, that these 100% detection rates are bogus and we shouldn't use physics lists that contains the NeutronHP package.
 
 
 * slide 9 *
+At the end I want to have a short discussion and I want to reflect on this project. So I had a reference work, that I've already mentioned in previous reports and presentations. This was the BSc thesis work of Dávid Pesznyák from last year. During the semester I've basically reproduced all of his results and added my own contribution to it by exploring some other questions too.
+
+On the reflection part, I think it was a challanging topic, but I think I've overtaken all the obstacles that I've encountered. Since I was never really engaged in nuclear physics, I couldn't really interpret results that required deeper knowledge in this topic, that was a huge drawback for me.
+But overall I think that was an interesting project work and I didn't regret working on this.
+
+Thank you for your attention!
