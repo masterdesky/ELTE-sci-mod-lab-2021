@@ -8,10 +8,9 @@ Today I'll give you a summary of these milestones that I've achieved during this
 * silde 2 *
 First I want to say some word about the software I've been using throughout the semester. It is called as Geant4, which is the fourth iteration of the GEANT software toolkit. The first version of this toolkit dates back to 1974, while Geant4 what I'm using was released 23 years ago, in 1998.
 
-This simulation software can be used to simulate a variety of particle-matter interactions. It really do offer countless of options and setting to play around with and could be suitable for probably any problems in particle- and nuclear physics.
+This simulation software can be used to simulate a variety of particle-matter interactions. It really do offer countless of options and settings to play around with and could be suitable for probably any problems in particle- and nuclear physics.
 
-But for the same reason, using it even on the basic level is challenging. Also learning to use it on an expert level would probably took months or years of work with it.
-The reason for this is that Geant4 serves just as a so-called "software engine" for particle simulations and the users should basically develop their own simulation application on top of it. So without sugarcoating it, using Geant4 is an actual software developing job.
+But for the same reason, using it even on the basic level is challenging. The reason for this is that Geant4 serves just as a so-called "software engine" for particle simulations and the users should basically develop their own simulation application on top of it. So without sugarcoating it, using Geant4 is an actual software developing job.
 
 
 * slide 3 *
