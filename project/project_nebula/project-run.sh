@@ -21,7 +21,7 @@ do
   DATADIR=${PROJDIR}/data/${PHYS}
   if [[ ! -d ${DATADIR} ]];
   then
-    mkdir ${DATADIR}
+    mkdir -p ${DATADIR}
   fi
 
   for ENERGY in {45..355..10}

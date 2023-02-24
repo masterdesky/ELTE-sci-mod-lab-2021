@@ -7,7 +7,7 @@ export GEANT4SRC=${GEANT4_ROOT}/src/
 
 mkdir -p ${GEANT4APPS} ${GEANT4BUILD} ${GEANT4INSTALL}
 
-if [ ! -d ${GEANT4SRC} ];
+if [[ ! -d ${GEANT4SRC} ]];
 then
 	# Downloading Geant4
 	echo
@@ -21,7 +21,7 @@ then
   rm -f ${GEANT4_ROOT}/geant4.10.07.p01.tar.gz
 fi
 
-if [ ${INSTALL_GEANT4} = "TRUE" ];
+if [[ ${INSTALL_GEANT4} = true ]];
 then
 	# Installing Geant4
 	echo
@@ -38,6 +38,7 @@ then
 	-DCMAKE_INSTALL_PREFIX=${GEANT4INSTALL} \
 	-DGEANT4_INSTALL_DATA=ON \
 	-DGEANT4_INSTALL_DATADIR=${GEANT4INSTALL}/data \
+	-DGEANT4_USE_RAYTRACER_X11=ON \
 	-DGEANT4_USE_OPENGL_X11=ON \
 	-DGEANT4_USE_QT=ON \
 	-DGEANT4_USE_XM=ON \
@@ -64,7 +65,7 @@ then
 fi
 
 # Source Geant4
-if [ -f ${GEANT4INSTALL}/bin/geant4.sh ];
+if [[ -f ${GEANT4INSTALL}/bin/geant4.sh ]];
 then
   cd ${GEANT4INSTALL}/bin/
   source geant4.sh
@@ -75,7 +76,7 @@ then
 	echo
 fi
 
-if [ ${ADD_NEBULA_INSTALL} = TRUE ];
+if [[ ${ADD_NEBULA_INSTALL} = true ]];
 then
 	# Add Geant4 install path to project install script
 	cp ${SCRIPTDIR}/project-install.sh ${PROJDIR}/project-install.sh

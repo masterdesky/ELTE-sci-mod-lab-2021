@@ -45,7 +45,7 @@ target_link_libraries(project_nebula ${Geant4_LIBRARIES})
 #
 set(PROJ_NEBULA_SCRIPTS
   project_nebula.in
-  project_nebula.out
+  #project_nebula.out
   init_vis.mac
   run1.mac
   run2.mac
